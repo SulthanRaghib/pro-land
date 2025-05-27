@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Index - Strategy Bootstrap Template</title>
+<title>JAS PRO LAND</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 
@@ -24,6 +24,9 @@
 
 <!-- Main CSS File -->
 <link href="{{ url('assets/css/main.css') }}" rel="stylesheet">
+
+{{-- Icon Bootstrap 5 --}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 <!-- =======================================================
   * Template Name: Strategy
