@@ -1,135 +1,36 @@
 <div>
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
+        <h2>CEO</h2>
+        <div><span>Kenali CEO</span> <span class="description-title">Kami</span></div>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-m-7.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <div class="row justify-content-center align-items-center gy-4 gap-4">
+                    <div class="col-lg-5 text-center d-flex justify-content-end">
+                        <img src="{{ url('assets/img/jas_pro_land/ceo-right.png') }}" alt="H. Ahmad Sadeli"
+                            class="img-fluid rounded-3 shadow" style="max-width: 60%; height: auto;">
                     </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>Walter White</h4>
-                        <span>Chief Executive Officer</span>
-                        <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum
-                            distinctio dire flow</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-f-8.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
-                    </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>Sarah Jhonson</h4>
-                        <span>Product Manager</span>
-                        <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod
-                            dolores exercitationem ut</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-m-6.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
-                    </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>William Anderson</h4>
-                        <span>CTO</span>
-                        <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel
-                            tque sed facilis at qui</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-f-4.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
-                    </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>Amanda Jepson</h4>
-                        <span>Accountant</span>
-                        <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam
-                            quasi quam consectetur</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-m-12.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
-                    </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>Brian Doe</h4>
-                        <span>Marketing</span>
-                        <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt
-                            doloribus quia impedit laborum velit</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
-                <div class="team-member d-flex">
-                    <div class="member-img">
-                        <img src="{{ url('assets/img/person/person-f-9.webp') }}" class="img-fluid" alt=""
-                            loading="lazy">
-                    </div>
-                    <div class="member-info flex-grow-1">
-                        <h4>Josepha Palas</h4>
-                        <span>Operation</span>
-                        <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis
-                            fugit eligendi cupiditate vel</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                            <a href=""><i class="bi bi-youtube"></i></a>
+                    <div class="col-lg-6">
+                        <div class="text-lg-start text-center">
+                            <h3 class="fw-bold text-warning">H. Ahmad Sadeli</h3>
+                            <h5 class="mb-3">Chief Executive Officer</h5>
+                            <p class="text-white">
+                                Ahmad Sadeli adalah CEO dari JAS PRO LAND DEVELOPMENT, seorang profesional berpengalaman
+                                di bidang
+                                properti dan pengembangan lahan. Dengan visi yang jelas dan kepemimpinan yang kuat, ia
+                                memimpin tim untuk mencapai kesuksesan dalam setiap proyek yang dijalankan.
+                            </p>
+                            <div class="d-flex justify-content-lg-start justify-content-center gap-3 mt-3">
+                                <a href="mailto:zxy@gmail.com" class="btn btn-outline-warning btn-sm">
+                                    <i class="bi bi-envelope"></i>
+                                </a>
+                                <!-- Tambahkan ikon lain jika perlu -->
+                            </div>
                         </div>
                     </div>
                 </div>
