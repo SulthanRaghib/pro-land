@@ -100,7 +100,8 @@
                 {{ $contactData['message'] }}
             </div>
 
-            <a href="mailto:{{ $contactData['email'] }}" class="button">Balas Pengirim</a>
+            <a href="mailto:{{ $contactData['email'] }}?subject=Re: {{ urlencode($contactData['subject']) }}"
+                class="button">Balas Pengirim</a>
         </div>
 
         <div class="footer">
