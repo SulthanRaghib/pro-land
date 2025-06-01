@@ -121,7 +121,7 @@
         </div>
 
         <div class="email-footer">
-            <p>&copy; {{ date('Y') }} JAS PRO LAND & DEVELOPMENT. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} JAS PRO LAND DEVELOPMENT. All rights reserved.</p>
             {{-- <div class="social-icons">
                 <a href="https://www.facebook.com/JasProLand">Facebook</a> |
                 <a href="https://www.instagram.com/jasproland/">Instagram</a> |

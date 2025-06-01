@@ -104,7 +104,7 @@
         </div>
 
         <div class="footer">
-            &copy; {{ date('Y') }} PT. JAS PRO LAND & DEVELOPMENT – Semua hak dilindungi. <br>
+            &copy; {{ date('Y') }} PT. JAS PRO LAND DEVELOPMENT – Semua hak dilindungi. <br>
             Email ini dikirim otomatis oleh sistem.
         </div>
     </div>
