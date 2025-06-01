@@ -5,7 +5,7 @@
 <meta name="keywords" content="">
 
 <!-- Favicons -->
-<link href="{{ url('assets/img/favicon.png') }}" rel="icon">
+<link href="{{ url('assets/img/jas_pro_land/logo-jas.png') }}" rel="icon">
 <link href="{{ url('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
 <!-- Fonts -->
@@ -27,6 +27,9 @@
 
 {{-- Icon Bootstrap 5 --}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- =======================================================
   * Template Name: Strategy

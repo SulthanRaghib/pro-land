@@ -9,11 +9,11 @@
 
      <nav id="navmenu" class="navmenu">
          <ul>
-             <li><a href="#hero" class="active">Beranda</a></li>
-             <li><a href="#about">Tentang Kami</a></li>
-             <li><a href="#services">Layanan Kami</a></li>
-             <li><a href="#portfolio">Portfolio</a></li>
-             <li><a href="#team">Tim</a></li>
+             <li><a href="{{ route('home') }}#hero" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
+             <li><a href="{{ route('home') }}#about">Tentang Kami</a></li>
+             <li><a href="{{ route('home') }}#services">Layanan Kami</a></li>
+             <li><a href="{{ route('home') }}#portfolio">Portfolio</a></li>
+             <li><a href="{{ route('home') }}#team">CEO</a></li>
              <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                          class="bi bi-chevron-down toggle-dropdown"></i></a>
                  <ul>
@@ -33,7 +33,8 @@
                      <li><a href="#">Dropdown 4</a></li>
                  </ul>
              </li>
-             <li><a href="#contact">Kontak</a></li>
+             <li><a href="{{ route('hubungi.kami') }}" class="{{ Route::is('hubungi.kami') ? 'active' : '' }}">Hubungi
+                     Kami</a></li>
          </ul>
          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
      </nav>

@@ -5,6 +5,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/kontak-kami', [HomeController::class, 'kontakKami'])->name('hubungi.kami');
+Route::post('/send-message-email', [HomeController::class, 'sendMessageEmail'])->name('send.message.email');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

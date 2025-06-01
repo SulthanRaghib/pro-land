@@ -1,5 +1,11 @@
 @extends('homepage')
 @section('content')
+    @if (session('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Berhasil!</strong> {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
     <!-- Hero Section -->
     <section id="hero" class="hero section">
         @include('home.pages.hero')
@@ -51,7 +57,7 @@
     </section><!-- /Faq Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    {{-- <section id="contact" class="contact section">
         @include('home.pages.contact')
-    </section><!-- /Contact Section -->
+    </section><!-- /Contact Section --> --}}
 @endsection
