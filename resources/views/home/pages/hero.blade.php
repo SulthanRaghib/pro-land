@@ -1,13 +1,16 @@
- <div class="container">
+ <div class="container mt-4">
      <div class="row">
          <div class="col-lg-7 content-col" data-aos="fade-up">
              <div class="content">
                  <div class="agency-name">
-                     <h5>PERUSAHAAN KAMI PT.</h5>
+                     <h5>PERUSAHAAN KAMI</h5>
                  </div>
 
                  <div class="main-heading mb-0">
-                     <h1 style="color: #e3a127">JAS PRO LAND</h1>
+                     <h1 style="color: #e3a127">
+                         PT. JAS PRO LAND
+                     </h1>
+
                  </div>
 
                  <div class="divider"></div>
@@ -46,7 +49,7 @@
          <div class="col-lg-5" data-aos="zoom-out">
              <div class="visual-content">
                  <div class="fluid-shape">
-                     <img src="{{ url('assets/img/hero/hero.jpg') }}" alt="Abstract Fluid Shape"
+                     <img src="{{ url('assets/img/jas_pro_land/gedung.png') }}" alt="PT. JAS PRO LAND"
                          class="fluid-img rounded-5 shadow-sm" loading="lazy">
                  </div>
 
