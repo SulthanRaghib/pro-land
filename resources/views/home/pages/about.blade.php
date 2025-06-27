@@ -22,32 +22,33 @@
             <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-content">
                     <h2>Bersama <span class="fw-bold" style="color: #e3a127">PT. JAS PRO LAND</span>, Setiap Proyek
-                        Lebih dari Sekadar Konstruksi.</h2>
-                    <p>PT. JAS PRO LAND didirikan berdasarkan Akta No. 88 tanggal 26 Februari 2025, sebagai salah satu
-                        perusahaan konstruksi dan developer
-                        terpercaya di Indonesia. Sejak awal berdiri, kami berkomitmen untuk turut berperan aktif dalam
-                        mendukung pembangunan nasional, baik dari sektor pemerintah maupun swasta. Komitmen ini kami
-                        jalankan dengan landasan profesionalisme, tanggung jawab, dan keyakinan atas kemampuan kami
-                        dalam memberikan hasil terbaik.
-                    </p>
-                    <p>
-                        Bergerak di bidang jasa konstruksi, PT. JAS PRO LAND mengerjakan berbagai proyek strategis mulai
-                        dari
-                        pembangunan gedung, jalan raya, irigasi atau saluran air, hingga struktur rangka atap baja
-                        ringan. Selain itu, kami juga merambah sektor developer dan pertambangan sebagai bentuk
-                        diversifikasi layanan dan peningkatan kontribusi terhadap pembangunan wilayah.
-                    </p>
-                    <p>
-                        Dengan pengalaman yang luas dan hasil kerja yang terbukti berkualitas, PT. JAS PRO LAND telah
-                        menjadi
-                        mitra terpercaya bagi berbagai kalangan. Slogan kami, <i>"Properties That Understand Your
-                            Need,"</i>
-                        menjadi cerminan tekad kami untuk menghadirkan hunian dan infrastruktur yang aman, nyaman, dan
-                        sesuai dengan kebutuhan setiap pelanggan.
+                        Lebih dari Sekadar Konstruksi</h2>
 
+                    <p>
+                        Berdiri kokoh melalui Akta No. 88 tanggal 26 Februari 2025, <strong>PT. JAS PRO LAND</strong>
+                        hadir sebagai <strong>perusahaan konstruksi dan developer properti profesional di
+                            Indonesia</strong>. Sejak awal, kami berkomitmen mendukung pembangunan nasional, baik untuk
+                        proyek pemerintah maupun sektor swasta, dengan menjunjung tinggi <strong>nilai profesionalisme,
+                            integritas, dan kualitas hasil kerja</strong>.
                     </p>
 
-                    <a href="#" class="btn btn-primary mt-4">Jelajahi Layanan Kami</a>
+                    <p>
+                        Kami menyediakan <strong>layanan jasa konstruksi terintegrasi</strong> mulai dari pembangunan
+                        gedung, infrastruktur jalan raya, sistem irigasi atau saluran air, hingga struktur atap baja
+                        ringan. Tak hanya itu, PT. JAS PRO LAND juga aktif sebagai <strong>developer properti</strong>
+                        dan turut berkontribusi dalam sektor pertambangan, memperluas dampak positif dalam pembangunan
+                        berkelanjutan.
+                    </p>
+
+                    <p>
+                        Dengan rekam jejak yang terpercaya dan pengalaman lintas proyek di berbagai wilayah Indonesia,
+                        kami telah menjadi <strong>mitra strategis</strong> bagi banyak institusi. Slogan kami,
+                        <em>"Properties That Understand Your Need"</em>, mencerminkan dedikasi kami dalam menciptakan
+                        hunian dan infrastruktur yang <strong>aman, fungsional, dan sesuai kebutuhan masyarakat
+                            modern</strong>.
+                    </p>
+
+                    <a href="{{ route('home') }}#services" class="btn btn-primary mt-4">Jelajahi Layanan Konstruksi</a>
                 </div>
             </div>
 
@@ -86,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="testimonial-section mt-5 pt-5" data-aos="fade-up" data-aos-delay="100">
+            {{-- <div class="testimonial-section mt-5 pt-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-right" data-aos-delay="200">
                         <div class="testimonial-intro">
@@ -219,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
 

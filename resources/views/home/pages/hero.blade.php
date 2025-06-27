@@ -14,23 +14,29 @@
 
                  <div class="description">
                      <p>
-                         Bangun Masa Depan Bersama <span class="fw-bold" style="color: #e3a127">PT. JAS PRO
-                             LAND</span> — mitra strategis Anda dalam mewujudkan kawasan modern yang
-                         inklusif dan berdaya guna. Kami tidak hanya membangun infrastruktur, tetapi juga
-                         menghadirkan solusi hunian dan lingkungan yang selaras dengan kebutuhan masyarakat.
-                         <br>
-                         Dengan keahlian, dedikasi, dan semangat keberlanjutan, kami menghadirkan proyek-proyek yang
-                         menjunjung tinggi nilai kenyamanan, keamanan, dan tanggung jawab sosial.
-                         <br>
-                         <i>"Properties That Understand Your Need"</i> bukan sekadar janji — melainkan dasar dari
-                         setiap
-                         karya yang kami ciptakan.
+                         Bangun masa depan yang lebih baik bersama <span class="fw-bold" style="color: #e3a127">PT. JAS
+                             PRO LAND</span> —
+                         <strong>perusahaan konstruksi dan developer properti terpercaya</strong> yang siap menjadi
+                         mitra strategis Anda.
+                         Kami menghadirkan solusi pembangunan kawasan modern yang <strong>berkelanjutan, inklusif, dan
+                             bernilai guna tinggi</strong>.
+                         <br><br>
+                         Didukung oleh tim ahli berpengalaman, <span class="fw-bold" style="color: #e3a127">PT. JAS PRO
+                             LAND</span> berkomitmen menghadirkan proyek-proyek
+                         terbaik — dari <strong>pengembangan perumahan</strong>, <strong>infrastruktur
+                             perkotaan</strong>, hingga <strong>konsep smart living</strong> yang selaras dengan
+                         kebutuhan masyarakat masa kini.
+                         <br><br>
+                         Setiap hunian, gedung, dan kawasan yang kami bangun mencerminkan nilai <strong>kenyamanan,
+                             keamanan, dan tanggung jawab sosial</strong>.
+                         Bagi kami, <em>"Properties That Understand Your Need"</em> bukan sekadar slogan — tapi fondasi
+                         dari setiap karya nyata yang kami bangun.
                      </p>
                  </div>
 
                  <div class="cta-button">
                      <a href="#services" class="btn">
-                         <span>MULAI PROYEK ANDA</span>
+                         <span>MULAI PROYEK ANDA BERSAMA JAS PRO LAND</span>
                          <i class="bi bi-arrow-right"></i>
                      </a>
                  </div>
