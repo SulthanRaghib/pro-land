@@ -1,8 +1,14 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>JAS PRO LAND</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<title>@yield('meta_title', 'PT. JAS PRO LAND - Jasa Konstruksi Profesional & Developer Properti Terpercaya di Indonesia')</title>
+<meta name="description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional. Wujudkan proyek pembangunan Anda bersama developer terpercaya Indonesia.')">
+<meta name="keywords" content="@yield('meta_keywords', 'jasa konstruksi profesional, developer properti terpercaya, proyek baja ringan, jasa urugan tanah, proyek pertambangan, konsultasi properti, konsultasi pertambangan, perusahaan konstruksi Indonesia, jasa bangun gedung, pengembang properti')">
+<link rel="canonical" href="{{ url()->current() }}">
+<meta name="author" content="PT. JAS PRO LAND">
+<meta property="og:title" content="@yield('meta_title', 'PT. JAS PRO LAND - Jasa Konstruksi Profesional & Developer Properti Terpercaya di Indonesia')">
+<meta property="og:description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional.')">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url()->current() }}">
 
 <!-- Favicons -->
 <link href="{{ url('assets/img/jas_pro_land/logo-jas.png') }}" rel="icon">
