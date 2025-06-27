@@ -9,11 +9,11 @@
 
      <nav id="navmenu" class="navmenu">
          <ul>
-             <li><a href="{{ route('home') }}#hero" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
-             <li><a href="{{ route('home') }}#about">Tentang Kami</a></li>
-             <li><a href="{{ route('home') }}#services">Layanan Kami</a></li>
+             <li><a href="{{ route('home') }}#beranda" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
+             <li><a href="{{ route('home') }}#tentang-kami">Tentang Kami</a></li>
+             <li><a href="{{ route('home') }}#layanan-kami">Layanan Kami</a></li>
              <li><a href="{{ route('home') }}#portfolio">Portfolio</a></li>
-             <li><a href="{{ route('home') }}#team">CEO</a></li>
+             <li><a href="{{ route('home') }}#ceo">CEO</a></li>
              <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                          class="bi bi-chevron-down toggle-dropdown"></i></a>
                  <ul>

@@ -7,17 +7,17 @@
         </div>
     @endif
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="beranda" class="hero section">
         @include('home.pages.hero')
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="tentang-kami" class="about section">
         @include('home.pages.about')
     </section><!-- /About Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="layanan-kami" class="services section">
         @include('home.pages.services')
     </section><!-- /Services Section -->
 
@@ -42,7 +42,7 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section light-background">
+    <section id="ceo" class="team section light-background">
         @include('home.pages.team')
     </section><!-- /Team Section -->
 
