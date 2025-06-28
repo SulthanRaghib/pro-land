@@ -19,7 +19,8 @@
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
                 <h1>Detail Layanan Proyek Urugan</h1>
-                <p>Persiapan lahan yang stabil, rata, dan siap bangun dengan proses urugan tanah profesional.</p>
+                <p>Persiapan lahan yang stabil, rata, dan siap bangun dengan proses urugan tanah profesional bersama JAS PRO
+                    LAND.</p>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ route('home') }}">Beranda</a></li>

@@ -20,7 +20,8 @@
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
                 <h1>Detail Layanan Proyek Pembangunan</h1>
-                <p>Mewujudkan konstruksi berkualitas tinggi yang tepat waktu dan sesuai standar terbaik industri.</p>
+                <p>Mewujudkan konstruksi berkualitas tinggi yang tepat waktu dan sesuai standar terbaik industri bersama JAS
+                    PRO LAND.</p>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ route('home') }}">Beranda</a></li>
