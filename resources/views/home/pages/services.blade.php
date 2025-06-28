@@ -41,12 +41,12 @@
                     <div class="service-icon">
                         <i class="bi bi-building"></i>
                     </div>
-                    <a href="service-details.html"
+                    <a href="{{ route('layanan.proyek.bangunan') }}"
                         class="card-action d-flex align-items-center justify-content-center rounded-circle">
                         <i class="bi bi-arrow-up-right"></i>
                     </a>
                     <h3>
-                        <a href="service-details.html">
+                        <a href="{{ route('layanan.proyek.bangunan') }}">
                             Proyek <span>Pembangunan</span>
                         </a>
                     </h3>

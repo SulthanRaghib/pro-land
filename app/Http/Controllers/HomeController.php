@@ -52,4 +52,13 @@ class HomeController extends Controller
             'message' => 'Pesan berhasil dikirim.'
         ]);
     }
+
+    // Layanan Kami ==============================================================================
+    // Proyek Pembangunan
+    public function proyekBangunan()
+    {
+        $title = 'Proyek Pembangunan';
+
+        return view('home.pages.layanan-kami.proyek_pembangunan', compact('title'));
+    }
 }
