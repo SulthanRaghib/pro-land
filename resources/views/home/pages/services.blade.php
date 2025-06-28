@@ -106,12 +106,12 @@
                     <div class="service-icon">
                         <i class="bi bi-gem"></i>
                     </div>
-                    <a href="service-details.html"
+                    <a href="{{ route('layanan.proyek.tambang') }}"
                         class="card-action d-flex align-items-center justify-content-center rounded-circle">
                         <i class="bi bi-arrow-up-right"></i>
                     </a>
                     <h3>
-                        <a href="service-details.html">
+                        <a href="{{ route('layanan.proyek.tambang') }}">
                             Proyek <span>Tambang</span>
                         </a>
                     </h3>

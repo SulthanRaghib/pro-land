@@ -77,4 +77,12 @@ class HomeController extends Controller
 
         return view('home.pages.layanan-kami.proyek_urugan', compact('title'));
     }
+
+    // Proyek Tambang
+    public function proyekTambang()
+    {
+        $title = 'Proyek Tambang';
+
+        return view('home.pages.layanan-kami.proyek_tambang', compact('title'));
+    }
 }
