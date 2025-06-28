@@ -85,4 +85,12 @@ class HomeController extends Controller
 
         return view('home.pages.layanan-kami.proyek_tambang', compact('title'));
     }
+
+    // Konsultan Properti
+    public function konsultanProperti()
+    {
+        $title = 'Konsultan Properti';
+
+        return view('home.pages.layanan-kami.konsultan_properti', compact('title'));
+    }
 }

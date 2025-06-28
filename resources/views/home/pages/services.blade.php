@@ -121,19 +121,19 @@
                 </div>
             </div>
 
-            <!-- Jasa Konsultasi Properti -->
+            <!-- Jasa Konsultan Properti -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-card position-relative z-1">
                     <div class="service-icon">
                         <i class="bi bi-briefcase"></i>
                     </div>
-                    <a href="service-details.html"
+                    <a href="{{ route('layanan.konsultan.properti') }}"
                         class="card-action d-flex align-items-center justify-content-center rounded-circle">
                         <i class="bi bi-arrow-up-right"></i>
                     </a>
                     <h3>
-                        <a href="service-details.html">
-                            Konsultasi <span>Properti</span>
+                        <a href="{{ route('layanan.konsultan.properti') }}">
+                            Konsultan <span>Properti</span>
                         </a>
                     </h3>
                     <p>
