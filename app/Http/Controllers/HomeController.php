@@ -61,4 +61,20 @@ class HomeController extends Controller
 
         return view('home.pages.layanan-kami.proyek_pembangunan', compact('title'));
     }
+
+    // Proyek Baja Ringan
+    public function proyekBajaRingan()
+    {
+        $title = 'Proyek Baja Ringan';
+
+        return view('home.pages.layanan-kami.proyek_baja_ringan', compact('title'));
+    }
+
+    // Proyek Urugan
+    public function proyekUrugan()
+    {
+        $title = 'Proyek Urugan';
+
+        return view('home.pages.layanan-kami.proyek_urugan', compact('title'));
+    }
 }
