@@ -143,19 +143,19 @@
                 </div>
             </div>
 
-            <!-- Jasa Konsultasi Pertambangan -->
+            <!-- Jasa Konsultan Pertambangan -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-card position-relative z-1">
                     <div class="service-icon">
                         <i class="bi bi-bar-chart"></i>
                     </div>
-                    <a href="service-details.html"
+                    <a href="{{ route('layanan.konsultan.pertambangan') }}"
                         class="card-action d-flex align-items-center justify-content-center rounded-circle">
                         <i class="bi bi-arrow-up-right"></i>
                     </a>
                     <h3>
-                        <a href="service-details.html">
-                            Konsultasi <span>Pertambangan</span>
+                        <a href="{{ route('layanan.konsultan.pertambangan') }}">
+                            Konsultan <span>Pertambangan</span>
                         </a>
                     </h3>
                     <p>

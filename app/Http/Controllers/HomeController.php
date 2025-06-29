@@ -93,4 +93,13 @@ class HomeController extends Controller
 
         return view('home.pages.layanan-kami.konsultan_properti', compact('title'));
     }
+
+    // Konsultan Pertambangan
+    public function konsultanPertambangan()
+    {
+        $title = 'Konsultan Pertambangan';
+
+        return view('home.pages.layanan-kami.konsultan_pertambangan', compact('title'));
+    }
+    // End of Layanan Kami ==============================================================================
 }
