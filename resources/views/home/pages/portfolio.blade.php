@@ -2,34 +2,38 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <div><span>Check Our</span> <span class="description-title">Portfolio</span></div>
+        <div><span>Telusuri</span> <span class="description-title">Proyek Kami</span></div>
     </div><!-- End Section Title -->
 
     <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
+            <!-- Filter Buttons -->
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
                 <li data-filter="*" class="filter-active">
-                    <i class="bi bi-grid-3x3"></i> All Projects
+                    <i class="bi bi-grid-3x3-gap"></i> Semua Proyek
                 </li>
-                <li data-filter=".filter-ui">
-                    <i class="bi bi-phone"></i> UI/UX
+                <li data-filter=".filter-pembangunan">
+                    <i class="bi bi-building"></i> Pembangunan
                 </li>
-                <li data-filter=".filter-development">
-                    <i class="bi bi-code-slash"></i> Development
+                <li data-filter=".filter-baja">
+                    <i class="bi bi-diagram-3"></i> Baja Ringan
                 </li>
-                <li data-filter=".filter-photography">
-                    <i class="bi bi-camera"></i> Photography
+                <li data-filter=".filter-urugan">
+                    <i class="bi bi-truck"></i> Urugan
                 </li>
-                <li data-filter=".filter-marketing">
-                    <i class="bi bi-graph-up"></i> Marketing
+                <li data-filter=".filter-tambang">
+                    <i class="bi bi-gem"></i> Tambang
+                </li>
+                <li data-filter=".filter-konsultasi">
+                    <i class="bi bi-person-lines-fill"></i> Konsultasi
                 </li>
             </ul>
 
             <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
                             <img src="{{ url('assets/img/portfolio/portfolio-1.webp') }}" class="img-fluid"
@@ -129,7 +133,7 @@
                     </article>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
                             <img src="{{ url('assets/img/portfolio/portfolio-2.webp') }}" class="img-fluid"
