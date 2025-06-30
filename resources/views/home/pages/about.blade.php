@@ -63,7 +63,6 @@
                                 </div>
                                 <ul>
                                     <li>Mewujudkan kawasan modern suatu lahan atau wilayah.</li>
-                                    <li>Di terima dan bermanfaat bagi masyarakat.</li>
                                     <li>Memberdayakan masyarakat.</li>
                                     <li>Mengutamanakan kebutuhan sosial</li>
                                 </ul>
