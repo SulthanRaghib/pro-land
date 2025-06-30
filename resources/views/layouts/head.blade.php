@@ -44,3 +44,87 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+<style>
+    /* Mega Menu Styling */
+    .mega-menu {
+        background-color: #333;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .mega-menu a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 12px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .mega-menu a:hover {
+        background: rgba(255, 215, 0, 0.1);
+        transform: translateY(-2px);
+    }
+
+    .active-layanan {
+        background: rgba(255, 215, 0, 0.2);
+        color: #ffd700 !important;
+    }
+
+    .mega-menu h5 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #fff;
+        transition: color 0.3s ease;
+    }
+
+    .mega-menu h5 span {
+        color: #ffd700;
+    }
+
+    .mega-menu a:hover h5 {
+        color: #ffd700;
+    }
+
+    .mega-menu p {
+        font-size: 13px;
+        line-height: 1.4;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 0;
+        transition: none !important;
+        /* Matikan semua transisi pada paragraf */
+    }
+
+    /* Pastikan paragraf tidak berubah saat hover */
+    .mega-menu a:hover p {
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    .mega-menu i {
+        color: #ffffff;
+        transition: all 0.3s ease;
+    }
+
+    .mega-menu a:hover i {
+        transform: scale(1.1);
+        color: #ffd700;
+    }
+
+    /* Responsif untuk mobile */
+    @media (max-width: 768px) {
+        .mega-menu h5 {
+            font-size: 14px;
+        }
+
+        .mega-menu p {
+            font-size: 12px;
+        }
+
+        .mega-menu i {
+            font-size: 24px !important;
+        }
+    }
+</style>
