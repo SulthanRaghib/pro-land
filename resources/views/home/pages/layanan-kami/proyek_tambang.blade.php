@@ -263,7 +263,7 @@
                                     <div>
                                         <span>Telepon Kami</span>
                                         <p>
-                                            <a href="wa.me/62811135745" target="_blank">+62 811-1357-45</a>
+                                            <a href="https://wa.me/62811135745" target="_blank">+62 811-1357-45</a>
                                         </p>
                                     </div>
                                 </div>
