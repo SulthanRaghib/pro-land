@@ -292,7 +292,7 @@ h6 {
 
     .navmenu .dropdown ul {
         width: 100vw !important;
-        max-width: 800px !important;
+        max-width: 700px !important;
         margin: 0;
         padding: 10px 0;
         background: var(--nav-dropdown-background-color);
