@@ -3,7 +3,7 @@
          <div class="col-lg-7 content-col" data-aos="fade-up">
              <div class="content">
                  <div class="agency-name">
-                     <h5>PERUSAHAAN KAMI</h5>
+                     <h5>Perusahaan Konstruksi & Developmen</h5>
                  </div>
 
                  <div class="main-heading mb-0">
@@ -17,29 +17,20 @@
 
                  <div class="description">
                      <p>
-                         Bangun masa depan yang lebih baik bersama <span class="fw-bold" style="color: #e3a127">PT. JAS
-                             PRO LAND</span> —
-                         <strong>perusahaan konstruksi dan developer properti terpercaya</strong> yang siap menjadi
-                         mitra strategis Anda.
-                         Kami menghadirkan solusi pembangunan kawasan modern yang <strong>berkelanjutan, inklusif, dan
-                             bernilai guna tinggi</strong>.
+                         <span class="fw-bold" style="color: #e3a127">JAS PRO LAND</span> adalah mitra profesional Anda
+                         dalam <strong>jasa konstruksi, pengembangan kawasan perumahan modern, dan pembangunan
+                             infrastruktur berkualitas</strong>.
+                         Kami menghadirkan solusi properti <strong>berkelanjutan</strong> yang mengutamakan
+                         <strong>kenyamanan, keamanan, dan nilai investasi jangka panjang</strong>.
                          <br><br>
-                         Didukung oleh tim ahli berpengalaman, <span class="fw-bold" style="color: #e3a127">PT. JAS PRO
-                             LAND</span> berkomitmen menghadirkan proyek-proyek
-                         terbaik — dari <strong>pengembangan perumahan</strong>, <strong>infrastruktur
-                             perkotaan</strong>, hingga <strong>konsep smart living</strong> yang selaras dengan
-                         kebutuhan masyarakat masa kini.
-                         <br><br>
-                         Setiap hunian, gedung, dan kawasan yang kami bangun mencerminkan nilai <strong>kenyamanan,
-                             keamanan, dan tanggung jawab sosial</strong>.
-                         Bagi kami, <em>"Properties That Understand Your Need"</em> bukan sekadar slogan — tapi fondasi
-                         dari setiap karya nyata yang kami bangun.
+                         Dari <strong>perencanaan proyek</strong> hingga realisasi bangunan, kami memastikan setiap
+                         detail sesuai standar tinggi yang dipercaya oleh ratusan klien di seluruh Indonesia.
                      </p>
                  </div>
 
                  <div class="cta-button">
-                     <a href="#services" class="btn">
-                         <span>MULAI PROYEK ANDA BERSAMA JAS PRO LAND</span>
+                     <a href="#layanan-kami" class="btn">
+                         <span>MULAI PROYEK ANDA SEKARANG</span>
                          <i class="bi bi-arrow-right"></i>
                      </a>
                  </div>
@@ -49,8 +40,9 @@
          <div class="col-lg-5" data-aos="zoom-out">
              <div class="visual-content">
                  <div class="fluid-shape">
-                     <img src="{{ url('assets/img/jas_pro_land/gedung.png') }}" alt="PT. JAS PRO LAND"
-                         class="fluid-img rounded-5 shadow-sm" loading="lazy">
+                     <img src="{{ url('assets/img/jas_pro_land/gedung.png') }}"
+                         alt="Jasa Konstruksi dan Developer PT. JAS PRO LAND" class="fluid-img rounded-5 shadow-sm"
+                         loading="lazy">
                  </div>
 
                  {{-- <div class="stats-card">
