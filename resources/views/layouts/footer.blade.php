@@ -1,65 +1,71 @@
- <footer id="footer" class="footer">
+<footer id="footer" class="footer">
+    <div class="container footer-top">
+        <div class="row gy-4">
+            <!-- Tentang Perusahaan -->
+            <div class="col-lg-4 col-md-12 footer-about">
+                <a href="{{ route('home') }}" class="logo d-flex align-items-center mb-3">
+                    <span class="sitename fw-bold text-warning">
+                        <img src="{{ url('assets/img/jas_pro_land/logo-jas.png') }}" alt="Logo JAS PRO LAND"
+                            class="img-fluid" style="max-width: 50px; height: auto; margin-right: 10px;">
+                        JAS PRO LAND</span>
+                </a>
+                <p>
+                    JAS PRO LAND adalah perusahaan konstruksi dan pengembang properti yang menyediakan layanan
+                    pembangunan, konsultasi properti, dan pengelolaan proyek pertambangan dengan standar kualitas
+                    terbaik di Indonesia.
+                </p>
+                {{-- <div class="social-links d-flex mt-3">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div> --}}
+            </div>
 
-     <div class="container footer-top">
-         <div class="row gy-4">
-             <div class="col-lg-5 col-md-12 footer-about">
-                 <a href="index.html" class="logo d-flex align-items-center">
-                     <span class="sitename">Strategy</span>
-                 </a>
-                 <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                     valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                 <div class="social-links d-flex mt-4">
-                     <a href=""><i class="bi bi-twitter-x"></i></a>
-                     <a href=""><i class="bi bi-facebook"></i></a>
-                     <a href=""><i class="bi bi-instagram"></i></a>
-                     <a href=""><i class="bi bi-linkedin"></i></a>
-                 </div>
-             </div>
+            <!-- Tautan Utama -->
+            <div class="col-lg-2 col-6 footer-links">
+                <h4 class="text-warning">Menu</h4>
+                <ul>
+                    <li><a href="{{ route('home') }}">Beranda</a></li>
+                    <li><a href="{{ route('home') }}#tentang-kami">Tentang Kami</a></li>
+                    <li><a href="{{ route('home') }}#layanan-kami">Layanan Kami</a></li>
+                    <li><a href="{{ route('home') }}#portfolio">Portfolio</a></li>
+                    <li><a href="{{ route('hubungi.kami') }}">Hubungi Kami</a></li>
+                </ul>
+            </div>
 
-             <div class="col-lg-2 col-6 footer-links">
-                 <h4>Useful Links</h4>
-                 <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">About us</a></li>
-                     <li><a href="#">Services</a></li>
-                     <li><a href="#">Terms of service</a></li>
-                     <li><a href="#">Privacy policy</a></li>
-                 </ul>
-             </div>
+            <!-- Layanan Kami -->
+            <div class="col-lg-3 col-6 footer-links">
+                <h4 class="text-warning">Layanan Kami</h4>
+                <ul>
+                    <li><a href="{{ route('layanan.proyek.bangunan') }}">Proyek Pembangunan</a></li>
+                    <li><a href="{{ route('layanan.proyek.baja.ringan') }}">Proyek Baja Ringan</a></li>
+                    <li><a href="{{ route('layanan.proyek.urugan') }}">Proyek Urugan</a></li>
+                    <li><a href="{{ route('layanan.proyek.tambang') }}">Proyek Pertambangan</a></li>
+                    <li><a href="{{ route('layanan.konsultan.properti') }}">Konsultan Properti</a></li>
+                    <li><a href="{{ route('layanan.konsultan.pertambangan') }}">Konsultan Pertambangan</a></li>
+                </ul>
+            </div>
 
-             <div class="col-lg-2 col-6 footer-links">
-                 <h4>Our Services</h4>
-                 <ul>
-                     <li><a href="#">Web Design</a></li>
-                     <li><a href="#">Web Development</a></li>
-                     <li><a href="#">Product Management</a></li>
-                     <li><a href="#">Marketing</a></li>
-                     <li><a href="#">Graphic Design</a></li>
-                 </ul>
-             </div>
+            <!-- Kontak -->
+            <div class="col-lg-3 col-md-12 footer-contact text-md-start">
+                <h4 class="text-warning">Kontak Kami</h4>
+                <p>House Office Jeruk Tipis, Luwung Semut 003/001 Kragilan, Kabupaten Serang, Banten</p>
+                <p class="mt-3"><strong>Telepon:</strong>
+                    <a href="https://https://wa.me/62811135745" class="text-white">+62 811-1357-45</a>
+                </p>
+                <p><strong>Email:</strong> <a href="mailto:prolandjas@gmail.com"
+                        class="text-white">prolandjas@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
 
-             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                 <h4>Contact Us</h4>
-                 <p>A108 Adam Street</p>
-                 <p>New York, NY 535022</p>
-                 <p>United States</p>
-                 <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                 <p><strong>Email:</strong> <span>info@example.com</span></p>
-             </div>
-
-         </div>
-     </div>
-
-     <div class="container copyright text-center mt-4">
-         <p>© <span>Copyright</span> <strong class="px-1 sitename">Strategy</strong> <span>All Rights
-                 Reserved</span></p>
-         <div class="credits">
-             <!-- All the links in the footer should remain intact. -->
-             <!-- You can delete the links only if you've purchased the pro version. -->
-             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-         </div>
-     </div>
-
- </footer>
+    <div class="container copyright text-center mt-4">
+        <p class="mb-0">&copy; <span>{{ date('Y') }}</span> <strong class="sitename">JAS PRO LAND</strong>. All
+            Rights Reserved.</p>
+        <div class="credits">
+            Designed with ❤️ by <a href="https://www.linkedin.com/in/sulthan-raghib-fillah/" class="text-white">Sulthan
+                Raghib Fillah</a>
+        </div>
+    </div>
+</footer>
