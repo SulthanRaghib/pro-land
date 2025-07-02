@@ -9,10 +9,18 @@
 <meta property="og:description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional.')">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:image" content="{{ url('assets/img/jas_pro_land/favicon_io/favicon.ico') }}">
+<meta property="og:image:alt" content="PT. JAS PRO LAND Logo">
+<meta property="og:site_name" content="PT. JAS PRO LAND">
 
-<!-- Favicons -->
-<link href="{{ url('assets/img/jas_pro_land/logo-jas.png') }}" rel="icon">
-<link href="{{ url('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+<!-- Favicon for all devices -->
+<link rel="icon" type="image/png" sizes="32x32"
+    href="{{ url('assets/img/jas_pro_land/favicon_io/favicon-32x32.png') }}">
+<link rel="shortcut icon" href="{{ url('assets/img/jas_pro_land/favicon_io/favicon.ico') }}" type="image/x-icon">
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url('assets/img/jas_pro_land/favicon_io/apple-touch-icon.png') }}">
+
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -36,14 +44,6 @@
 
 <!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-<!-- =======================================================
-  * Template Name: Strategy
-  * Template URL: https://bootstrapmade.com/strategy-bootstrap-agency-template/
-  * Updated: May 09 2025 with Bootstrap v5.3.6
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 
 <style>
     /* Mega Menu Styling */
