@@ -36,16 +36,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-1.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
+                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang.png') }}"
+                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
                             <div class="entry-overlay">
                                 <div class="overlay-content">
-                                    <div class="entry-meta">UI/UX Design</div>
-                                    <h3 class="entry-title">Mobile Banking App</h3>
+                                    <div class="entry-meta">
+                                        Pembangunan
+                                    </div>
+                                    <h3 class="entry-title">Pembangunan Rumah Klasik Modern</h3>
                                     <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-1.webp') }}" class="glightbox"
-                                            data-gallery="portfolio-gallery-ui"
-                                            data-glightbox="title: Mobile Banking App; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
+                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang.png') }}"
+                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-1"
+                                            data-glightbox="title: Pembangunan Rumah Klasik Modern; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
                                             <i class="bi bi-arrows-angle-expand"></i>
                                         </a>
                                         <a href="portfolio-details.html">
@@ -61,16 +63,18 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-10.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
+                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
+                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
                             <div class="entry-overlay">
                                 <div class="overlay-content">
-                                    <div class="entry-meta">Development</div>
-                                    <h3 class="entry-title">E-Learning Platform</h3>
+                                    <div class="entry-meta">Pembangunan</div>
+                                    <h3 class="entry-title">
+                                        Pembangunan Rumah Klasik Modern 2
+                                    </h3>
                                     <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-10.webp') }}" class="glightbox"
-                                            data-gallery="portfolio-gallery-development"
-                                            data-glightbox="title: E-Learning Platform; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
+                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
+                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-2"
+                                            data-glightbox="title: Pembangunan Rumah Klasik Modern 2; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
                                             <i class="bi bi-arrows-angle-expand"></i>
                                         </a>
                                         <a href="portfolio-details.html">
@@ -86,24 +90,24 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-7.webp') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_img.jpg') }}" class="img-fluid"
                                 alt="" loading="lazy">
                             <div class="entry-overlay">
                                 <div class="overlay-content">
-                                    <div class="entry-meta">Photography</div>
-                                    <h3 class="entry-title">Urban Architecture</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-7.webp') }}" class="glightbox"
-                                            data-gallery="portfolio-gallery-photography"
-                                            data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
+                                    <div class="entry-meta">
+                                        <h3 class="entry-title">Urban Architecture</h3>
+                                        <div class="entry-links">
+                                            <a href="{{ asset('assets/img/jas_pro_land/proyek_urugan_img.jpg') }}"
+                                                class="glightbox" data-gallery="portfolio-gallery-photography"
+                                                data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
+                                                <i class="bi bi-arrows-angle-expand"></i>
+                                            </a>
+                                            <a href="portfolio-details.html">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                         </figure>
                     </article>
                 </div><!-- End Portfolio Item -->
@@ -136,16 +140,16 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-2.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
+                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg.png') }}"
+                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
                             <div class="entry-overlay">
                                 <div class="overlay-content">
-                                    <div class="entry-meta">UI/UX Design</div>
-                                    <h3 class="entry-title">Smart Home Interface</h3>
+                                    <div class="entry-meta">Pembangunan</div>
+                                    <h3 class="entry-title">Pembangunan Rumah Klasik Modern</h3>
                                     <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-2.webp') }}" class="glightbox"
-                                            data-gallery="portfolio-gallery-ui"
-                                            data-glightbox="title: Smart Home Interface; description: At vero eos et accusamus et iusto odio dignissimos ducimus.">
+                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg.png') }}"
+                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-1"
+                                            data-glightbox="title: Pembangunan Rumah Klasik Modern; description: At vero eos et accusamus et iusto odio dignissimos ducimus.">
                                             <i class="bi bi-arrows-angle-expand"></i>
                                         </a>
                                         <a href="portfolio-details.html">
@@ -161,16 +165,19 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
                     <article class="portfolio-entry">
                         <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-11.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
+                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
+                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang 2"
+                                loading="lazy">
                             <div class="entry-overlay">
                                 <div class="overlay-content">
-                                    <div class="entry-meta">Development</div>
-                                    <h3 class="entry-title">Cloud Management System</h3>
+                                    <div class="entry-meta">Pembangunan</div>
+                                    <h3 class="entry-title">
+                                        Pembangunan Rumah Klasik Modern 2
+                                    </h3>
                                     <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-11.webp') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-development"
-                                            data-glightbox="title: Cloud Management System; description: Temporibus autem quibusdam et aut officiis debitis.">
+                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
+                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-2"
+                                            data-glightbox="title: Pembangunan Rumah Klasik Modern 2; description: Integer posuere erat a ante venenatis dapibus posuere velit aliquet.">
                                             <i class="bi bi-arrows-angle-expand"></i>
                                         </a>
                                         <a href="portfolio-details.html">
