@@ -1,248 +1,76 @@
-<div>
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <div><span>Telusuri</span> <span class="description-title">Proyek Kami</span></div>
-    </div><!-- End Section Title -->
+@extends('homepage')
+@section('content')
+    <div class="pt-5">
+        <section id="portfolio" class="portfolio section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portofolio Konstruksi & Development PT. JAS PRO LAND</h2>
+                <div><span>Telusuri</span> <span class="description-title">proyek konstruksi profesional.</span></div>
+            </div><!-- End Section Title -->
 
-    <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-            <!-- Filter Buttons -->
-            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-                <li data-filter="*" class="filter-active">
-                    <i class="bi bi-grid-3x3-gap"></i> Semua Proyek
-                </li>
-                <li data-filter=".filter-pembangunan">
-                    <i class="bi bi-building"></i> Pembangunan
-                </li>
-                <li data-filter=".filter-baja">
-                    <i class="bi bi-diagram-3"></i> Baja Ringan
-                </li>
-                <li data-filter=".filter-urugan">
-                    <i class="bi bi-truck"></i> Urugan
-                </li>
-                <li data-filter=".filter-tambang">
-                    <i class="bi bi-gem"></i> Tambang
-                </li>
-                <li data-filter=".filter-konsultasi">
-                    <i class="bi bi-person-lines-fill"></i> Konsultasi
-                </li>
-            </ul>
+                    <!-- Filter Buttons -->
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+                        <li data-filter="*" class="filter-active">
+                            <i class="bi bi-grid-3x3-gap"></i> Semua Proyek
+                        </li>
+                        <li data-filter=".filter-pembangunan">
+                            <i class="bi bi-building"></i> Pembangunan
+                        </li>
+                        <li data-filter=".filter-baja">
+                            <i class="bi bi-diagram-3"></i> Baja Ringan
+                        </li>
+                        <li data-filter=".filter-urugan">
+                            <i class="bi bi-truck"></i> Urugan
+                        </li>
+                        <li data-filter=".filter-tambang">
+                            <i class="bi bi-gem"></i> Tambang
+                        </li>
+                        <li data-filter=".filter-konsultasi">
+                            <i class="bi bi-person-lines-fill"></i> Konsultasi
+                        </li>
+                    </ul>
 
-            <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang.png') }}"
-                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">
-                                        Pembangunan
-                                    </div>
-                                    <h3 class="entry-title">Pembangunan Rumah Klasik Modern</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang.png') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-1"
-                                            data-glightbox="title: Pembangunan Rumah Klasik Modern; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
-                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Pembangunan</div>
-                                    <h3 class="entry-title">
-                                        Pembangunan Rumah Klasik Modern 2
-                                    </h3>
-                                    <div class="entry-links">
-                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-2"
-                                            data-glightbox="title: Pembangunan Rumah Klasik Modern 2; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_img.jpg') }}" class="img-fluid"
-                                alt="" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">
-                                        <h3 class="entry-title">Urban Architecture</h3>
-                                        <div class="entry-links">
-                                            <a href="{{ asset('assets/img/jas_pro_land/proyek_urugan_img.jpg') }}"
-                                                class="glightbox" data-gallery="portfolio-gallery-photography"
-                                                data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                                                <i class="bi bi-arrows-angle-expand"></i>
-                                            </a>
-                                            <a href="portfolio-details.html">
-                                                <i class="bi bi-arrow-right"></i>
-                                            </a>
+                    <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                        @forelse ($allProjects as $project)
+                            <div
+                                class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ $project['filter'] }}">
+                                <article class="portfolio-entry">
+                                    <figure class="entry-image">
+                                        <img src="{{ $project['image'] }}" class="img-fluid" alt="{{ $project['alt'] }}"
+                                            loading="lazy">
+                                        <div class="entry-overlay">
+                                            <div class="overlay-content">
+                                                <div class="entry-meta text-capitalize">
+                                                    {{ $project['category'] }}
+                                                </div>
+                                                <h2 class="entry-title">{{ $project['alt'] }}</h2>
+                                                <div class="entry-links">
+                                                    <a href="{{ $project['image'] }}" class="glightbox"
+                                                        data-gallery="portfolio-gallery"
+                                                        data-glightbox="title: {{ $project['alt'] }}; description: Proyek konstruksi berkualitas bersama PT. JAS PRO LAND.">
+                                                        <i class="bi bi-arrows-angle-expand"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-4.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Marketing</div>
-                                    <h3 class="entry-title">Social Media Campaign</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-4.webp') }}" class="glightbox"
-                                            data-gallery="portfolio-gallery-marketing"
-                                            data-glightbox="title: Social Media Campaign; description: Quis autem vel eum iure reprehenderit qui in ea voluptate.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                                    </figure>
+                                </article>
                             </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-pembangunan">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg.png') }}"
-                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Pembangunan</div>
-                                    <h3 class="entry-title">Pembangunan Rumah Klasik Modern</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg.png') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-1"
-                                            data-glightbox="title: Pembangunan Rumah Klasik Modern; description: At vero eos et accusamus et iusto odio dignissimos ducimus.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                        @empty
+                            <div class="col-12 text-center">
+                                <p class="text-muted">Belum ada portofolio proyek yang ditampilkan saat ini.</p>
+                                <a href="{{ route('hubungi.kami') }}" class="btn btn-primary mt-3">Hubungi Kami untuk
+                                    Konsultasi
+                                    Proyek</a>
                             </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
-                                class="img-fluid" alt="Proyek Pembangunan Rumah Klasik Modern Serang 2"
-                                loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Pembangunan</div>
-                                    <h3 class="entry-title">
-                                        Pembangunan Rumah Klasik Modern 2
-                                    </h3>
-                                    <div class="entry-links">
-                                        <a href="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-pembangunan-2"
-                                            data-glightbox="title: Pembangunan Rumah Klasik Modern 2; description: Integer posuere erat a ante venenatis dapibus posuere velit aliquet.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-8.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Photography</div>
-                                    <h3 class="entry-title">Nature Collection</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-8.webp') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-photography"
-                                            data-glightbox="title: Nature Collection; description: Integer posuere erat a ante venenatis dapibus posuere velit aliquet.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
-                    <article class="portfolio-entry">
-                        <figure class="entry-image">
-                            <img src="{{ url('assets/img/portfolio/portfolio-5.webp') }}" class="img-fluid"
-                                alt="" loading="lazy">
-                            <div class="entry-overlay">
-                                <div class="overlay-content">
-                                    <div class="entry-meta">Marketing</div>
-                                    <h3 class="entry-title">Brand Strategy</h3>
-                                    <div class="entry-links">
-                                        <a href="{{ url('assets/img/portfolio/portfolio-5.webp') }}"
-                                            class="glightbox" data-gallery="portfolio-gallery-marketing"
-                                            data-glightbox="title: Brand Strategy; description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="portfolio-details.html">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </article>
-                </div><!-- End Portfolio Item -->
-
-            </div><!-- End Portfolio Container -->
-
-        </div>
-
+                        @endforelse
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
     </div>
-</div>
+@endsection

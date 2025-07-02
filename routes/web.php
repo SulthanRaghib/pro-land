@@ -15,6 +15,7 @@ Route::get('/layanan-kami/proyek-urugan', [HomeController::class, 'proyekUrugan'
 Route::get('/layanan-kami/proyek-tambang', [HomeController::class, 'proyekTambang'])->name('layanan.proyek.tambang');
 Route::get('/layanan-kami/konsultan-properti', [HomeController::class, 'konsultanProperti'])->name('layanan.konsultan.properti');
 Route::get('/layanan-kami/konsultan-pertambangan', [HomeController::class, 'konsultanPertambangan'])->name('layanan.konsultan.pertambangan');
+Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
 // Generate sitemap.xml
 Sitemap::create()

@@ -37,9 +37,9 @@
     </section><!-- /Testimonials Section --> --}}
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    {{-- <section id="portfolio" class="portfolio section">
         @include('home.pages.portfolio')
-    </section><!-- /Portfolio Section -->
+    </section><!-- /Portfolio Section --> --}}
 
     <!-- Team Section -->
     <section id="ceo" class="team section light-background">
