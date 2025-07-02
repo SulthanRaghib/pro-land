@@ -1,10 +1,13 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>@yield('meta_title', 'PT. JAS PRO LAND - Jasa Konstruksi Profesional & Developer Properti Terpercaya di Indonesia')</title>
 <meta name="description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional. Wujudkan proyek pembangunan Anda bersama developer terpercaya Indonesia.')">
 <meta name="keywords" content="@yield('meta_keywords', 'jasa konstruksi profesional, developer properti terpercaya, proyek baja ringan, jasa urugan tanah, proyek pertambangan, konsultasi properti, konsultasi pertambangan, perusahaan konstruksi Indonesia, jasa bangun gedung, pengembang properti')">
 <link rel="canonical" href="{{ url()->current() }}">
 <meta name="author" content="PT. JAS PRO LAND">
+<meta name="apple-mobile-web-app-title" content="JAS PRO LAND">
+<meta name="application-name" content="JAS PRO LAND">
 <meta property="og:title" content="@yield('meta_title', 'PT. JAS PRO LAND - Jasa Konstruksi Profesional & Developer Properti Terpercaya di Indonesia')">
 <meta property="og:description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional.')">
 <meta property="og:type" content="website">
@@ -17,9 +20,15 @@
 <link rel="icon" type="image/png" sizes="32x32"
     href="{{ url('assets/img/jas_pro_land/favicon_io/favicon-32x32.png') }}">
 <link rel="shortcut icon" href="{{ url('assets/img/jas_pro_land/favicon_io/favicon.ico') }}" type="image/x-icon">
+<link rel="icon" type="image/svg+xml" href="{{ url('assets/img/jas_pro_land/favicon_io/favicon.svg') }}">
 <!-- Apple Touch Icon -->
 <link rel="apple-touch-icon" sizes="180x180"
     href="{{ url('assets/img/jas_pro_land/favicon_io/apple-touch-icon.png') }}">
+<!-- Android Chrome Icon -->
+<link rel="icon" type="image/png" sizes="192x192"
+    href="{{ url('assets/img/jas_pro_land/favicon_io/android-chrome-192x192.png') }}">
+<!-- Web App Manifest -->
+<link rel="manifest" href="{{ url('assets/img/jas_pro_land/favicon_io/site.webmanifest') }}">
 
 
 <!-- Fonts -->
