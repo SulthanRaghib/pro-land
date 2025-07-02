@@ -197,7 +197,7 @@
                                                     alt="Proyek Urugan Tanah Grand Harmony Balaraja" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
-                                                    <h5>Urugan Tanah Grand Harmony Balaraja</h5>
+                                                    <h5>Proyek Urugan Tanah Grand Harmony Balaraja</h5>
                                                 </div>
                                             </div>
                                         </div>
