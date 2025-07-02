@@ -3,6 +3,8 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/kontak-kami', [HomeController::class, 'kontakKami'])->name('hubungi.kami');
@@ -13,6 +15,18 @@ Route::get('/layanan-kami/proyek-urugan', [HomeController::class, 'proyekUrugan'
 Route::get('/layanan-kami/proyek-tambang', [HomeController::class, 'proyekTambang'])->name('layanan.proyek.tambang');
 Route::get('/layanan-kami/konsultan-properti', [HomeController::class, 'konsultanProperti'])->name('layanan.konsultan.properti');
 Route::get('/layanan-kami/konsultan-pertambangan', [HomeController::class, 'konsultanPertambangan'])->name('layanan.konsultan.pertambangan');
+
+// Generate sitemap.xml
+Sitemap::create()
+    ->add(Url::create('/')->setLastModificationDate(now()))
+    ->add(Url::create('/kontak-kami')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/proyek-pembangunan')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/proyek-baja-ringan')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/proyek-urugan')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/proyek-tambang')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/konsultan-properti')->setLastModificationDate(now()))
+    ->add(Url::create('/layanan-kami/konsultan-pertambangan')->setLastModificationDate(now()))
+    ->writeToFile(public_path('sitemap.xml'));
 
 Route::get('/dashboard', function () {
     return view('dashboard');
