@@ -59,7 +59,7 @@
                             <div class="feature-item">
                                 <div class="d-flex align-items-center gap-3 mb-0">
                                     <i class="bi bi-people-fill"></i>
-                                    <h5>Visi Kami</h5>
+                                    <h5 class="text-dark">Visi Kami</h5>
                                 </div>
                                 <ul>
                                     <li>Mewujudkan kawasan modern suatu lahan atau wilayah.</li>
@@ -72,7 +72,7 @@
                             <div class="feature-item">
                                 <div class="d-flex align-items-center gap-3 mb-0">
                                     <i class="bi bi-flag-fill"></i>
-                                    <h5>Misi Kami</h5>
+                                    <h5 class="text-dark">Misi Kami</h5>
                                 </div>
                                 <ul>
                                     <li>Membangun kawasan modern yang terencana dan berkelanjutan.</li>

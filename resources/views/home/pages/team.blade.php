@@ -21,7 +21,7 @@
                         <div class="text-lg-start text-center">
                             <h3 class="fw-bold text-warning">H. Ahmad Sadeli</h3>
                             <h5 class="mb-3">Chief Executive Officer</h5>
-                            <p class="text-white">
+                            <p>
                                 H. Ahmad Sadeli adalah CEO dan pendiri <strong>JAS PRO LAND Development</strong>,
                                 perusahaan konstruksi dan pengembangan properti terkemuka di Indonesia. Dengan
                                 pengalamannya dalam bidang konstruksi bangunan, proyek
@@ -29,7 +29,7 @@
                                 menghadirkan solusi inovatif, efisien, dan berkualitas tinggi dalam setiap proyek
                                 pembangunan.
                             </p>
-                            <p class="text-white">
+                            <p>
                                 Di bawah kepemimpinannya, JAS PRO LAND terus tumbuh menjadi <strong>developer
                                     profesional</strong> yang dipercaya berbagai klien dalam pembangunan rumah, gedung
                                 komersial, proyek baja ringan, serta jasa konsultasi pertambangan dan properti. Dedikasi
@@ -39,7 +39,7 @@
                                 <a href="mailto:ahmadsadelircm@gmail.com" class="btn btn-outline-warning">
                                     <i class="bi bi-envelope"></i> Hubungi CEO
                                 </a>
-                                <a href="{{ route('hubungi.kami') }}" class="btn btn-outline-primary">
+                                <a href="{{ route('hubungi.kami') }}" class="btn btn-outline-success">
                                     <i class="bi bi-chat-dots"></i> Konsultasi Proyek
                                 </a>
                                 <!-- Tambahkan ikon lain jika perlu -->

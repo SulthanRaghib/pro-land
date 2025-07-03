@@ -52,10 +52,10 @@
                 <h4 class="text-warning">Kontak Kami</h4>
                 <p>House Office Jeruk Tipis, Luwung Semut 003/001 Kragilan, Kabupaten Serang, Banten</p>
                 <p class="mt-3"><strong>Telepon:</strong>
-                    <a href="https://https://wa.me/62811135745" class="text-white">+62 811-1357-45</a>
+                    <a href="https://https://wa.me/62811135745" class="text-dark">+62 811-1357-45</a>
                 </p>
                 <p><strong>Email:</strong> <a href="mailto:prolandjas@gmail.com"
-                        class="text-white">prolandjas@gmail.com</a></p>
+                        class="text-dark">prolandjas@gmail.com</a></p>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
         <p class="mb-0">&copy; <span>{{ date('Y') }}</span> <strong class="sitename">JAS PRO LAND</strong>. All
             Rights Reserved.</p>
         <div class="credits">
-            Designed with ❤️ by <a href="https://www.linkedin.com/in/sulthan-raghib-fillah/" class="text-white">Sulthan
+            Designed with ❤️ by <a href="https://www.linkedin.com/in/sulthan-raghib-fillah/" class="text-dark">Sulthan
                 Raghib Fillah</a>
         </div>
     </div>

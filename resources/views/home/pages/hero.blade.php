@@ -3,7 +3,7 @@
          <div class="col-lg-7 content-col" data-aos="fade-up">
              <div class="content">
                  <div class="agency-name">
-                     <h5>Perusahaan Konstruksi & Developmen</h5>
+                     <h5>Perusahaan Konstruksi & Development</h5>
                  </div>
 
                  <div class="main-heading mb-0">

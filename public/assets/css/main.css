@@ -79,8 +79,8 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
-    color: var(--default-color);
-    background-color: var(--background-color);
+    color: black;
+    background-color: var(--contrast-color);
     font-family: var(--default-font);
 }
 
@@ -101,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--heading-color);
+    color: black;
     font-family: var(--heading-font);
 }
 
@@ -162,7 +162,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
     --background-color: rgba(255, 255, 255, 0);
-    color: var(--default-color);
+    color: black;
     background-color: var(--background-color);
     padding: 20px 0;
     transition: all 0.5s;
@@ -170,7 +170,7 @@ h6 {
 }
 
 .header .header-container {
-    background: var(--surface-color);
+    background: var(--accent-color);
     border-radius: 50px;
     padding: 5px 25px 5px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -287,7 +287,8 @@ h6 {
     .navmenu li:hover > a,
     .navmenu .active,
     .navmenu .active:focus {
-        color: var(--nav-hover-color);
+        color: #00820e;
+        font-weight: 700;
     }
 
     .navmenu .dropdown ul {
@@ -373,7 +374,7 @@ h6 {
         padding: 10px 0;
         margin: 0;
         border-radius: 6px;
-        background-color: var(--nav-mobile-background-color);
+        background-color: var(--accent-color);
         overflow-y: auto;
         transition: 0.3s;
         z-index: 9998;
@@ -422,7 +423,8 @@ h6 {
     .navmenu a:hover,
     .navmenu .active,
     .navmenu .active:focus {
-        color: var(--nav-dropdown-hover-color);
+        color: #00820e;
+        font-weight: 700;
     }
 
     .navmenu .active i,
@@ -439,8 +441,7 @@ h6 {
         padding: 10px 0;
         margin: 10px 20px;
         background-color: var(--nav-dropdown-background-color);
-        border: 1px solid
-            color-mix(in srgb, var(--default-color), transparent 90%);
+        border: 1px solid color-mix(in srgb, black, transparent 90%);
         box-shadow: none;
         transition: all 0.5s ease-in-out;
     }
@@ -485,8 +486,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-    color: var(--default-color);
-    background-color: var(--background-color);
+    color: black;
+    background-color: var(--contrast-color);
     font-size: 14px;
     padding-bottom: 50px;
     position: relative;
@@ -494,8 +495,7 @@ h6 {
 
 .footer .footer-top {
     padding-top: 50px;
-    border-top: 1px solid
-        color-mix(in srgb, var(--default-color), transparent 90%);
+    border-top: 1px solid color-mix(in srgb, black, transparent 90%);
 }
 
 .footer .footer-about .logo {
@@ -509,7 +509,7 @@ h6 {
 }
 
 .footer .footer-about .logo span {
-    color: var(--heading-color);
+    color: black;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -528,9 +528,9 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+    border: 1px solid color-mix(in srgb, black, transparent 50%);
     font-size: 16px;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    color: color-mix(in srgb, black, transparent 50%);
     margin-right: 10px;
     transition: 0.3s;
 }
@@ -574,7 +574,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     display: inline-block;
     line-height: 1;
 }
@@ -590,7 +590,7 @@ h6 {
 .footer .copyright {
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+    background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
 }
 
 .footer .copyright p {
@@ -610,7 +610,7 @@ h6 {
     inset: 0;
     z-index: 999999;
     overflow: hidden;
-    background: var(--background-color);
+    background: var(--contrast-color);
     transition: all 0.6s ease-out;
 }
 
@@ -685,8 +685,8 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-    color: var(--default-color);
-    background-color: var(--background-color);
+    color: black;
+    background-color: var(--contrast-color);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -737,7 +737,7 @@ h6 {
     content: "/";
     display: inline-block;
     padding-right: 10px;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    color: color-mix(in srgb, black, transparent 50%);
 }
 
 /*--------------------------------------------------------------
@@ -745,8 +745,8 @@ h6 {
 --------------------------------------------------------------*/
 section,
 .section {
-    color: var(--default-color);
-    background-color: var(--background-color);
+    color: black;
+    background-color: var(--contrast-color);
     padding: 60px 0;
     scroll-margin-top: 90px;
     overflow: clip;
@@ -775,7 +775,7 @@ section,
     margin: 0;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    color: color-mix(in srgb, black, transparent 50%);
     position: relative;
 }
 
@@ -789,7 +789,7 @@ section,
 }
 
 .section-title div {
-    color: var(--heading-color);
+    color: black;
     margin: 0;
     margin: 0;
     font-size: 28px;
@@ -856,7 +856,7 @@ section,
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--contrast-color);
+    color: var(--background-color);
     margin: 0;
 }
 
@@ -893,7 +893,7 @@ section,
 .hero .divider {
     width: 60%;
     height: 1px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+    background-color: color-mix(in srgb, black, transparent 85%);
     margin-bottom: 2rem;
 }
 
@@ -910,7 +910,7 @@ section,
 .hero .description p {
     font-size: 1rem;
     line-height: 1.7;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     margin: 0;
 }
 
@@ -918,8 +918,8 @@ section,
     display: inline-flex;
     align-items: center;
     background-color: transparent;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 40%);
-    color: var(--default-color);
+    border: 1px solid color-mix(in srgb, black, transparent 40%);
+    color: black;
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -994,7 +994,7 @@ section,
     right: 0;
     background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
     backdrop-filter: blur(10px);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
     border-radius: 10px;
     padding: 1.5rem;
     width: 200px;
@@ -1121,7 +1121,7 @@ section,
 .about .about-content .lead {
     font-size: 1.15rem;
     margin-bottom: 1.25rem;
-    color: color-mix(in srgb, var(--heading-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
 }
 
 .about .about-content p {
@@ -1130,7 +1130,8 @@ section,
 
 .about .about-content .feature-item {
     padding: 1.25rem;
-    background-color: var(--surface-color);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     height: 100%;
@@ -1262,7 +1263,7 @@ section,
 
 .about .testimonial-section .testimonial-item .client-info span {
     font-size: 0.85rem;
-    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    color: color-mix(in srgb, black, transparent 40%);
 }
 
 /*--------------------------------------------------------------
@@ -1277,7 +1278,7 @@ section,
     margin-bottom: 0;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--heading-color);
+    color: black;
 }
 
 .services .service-header .service-intro .service-heading div {
@@ -1305,7 +1306,7 @@ section,
 
 .services .service-header .service-summary p {
     margin-bottom: 25px;
-    color: var(--default-color);
+    color: black;
 }
 
 .services .service-header .service-summary .service-btn {
@@ -1342,7 +1343,7 @@ section,
 .services .service-card {
     padding: 40px 40px 40px 40px;
     margin-bottom: 30px;
-    border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    border: 2px solid color-mix(in srgb, black, transparent 90%);
     transition: all 0.3s ease;
 }
 
@@ -1370,7 +1371,7 @@ section,
 }
 
 .services .service-card h3 a {
-    color: var(--heading-color);
+    color: black;
     transition: color 0.3s ease;
 }
 
@@ -1383,7 +1384,7 @@ section,
 }
 
 .services .service-card p {
-    color: var(--default-color);
+    color: black;
     transition: color 0.3s ease;
     margin-bottom: 0;
 }
@@ -1436,7 +1437,7 @@ section,
 .services .service-card:hover::before {
     opacity: 1;
     visibility: visible;
-    background-color: var(--surface-color);
+    background-color: #00820e;
 }
 
 .services .service-card:hover h3 a {
@@ -1448,7 +1449,7 @@ section,
 }
 
 .services .service-card:hover p {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, white, transparent 20%);
 }
 
 .services .service-card:hover .card-action {
@@ -1572,11 +1573,11 @@ section,
     font-size: 1.3rem;
     margin-bottom: 15px;
     font-weight: 600;
-    color: var(--heading-color);
+    color: black;
 }
 
 .steps p {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 0;
@@ -1901,7 +1902,7 @@ section,
 
 .testimonials .testimonial-item .profile .profile-info span {
     font-size: 14px;
-    color: color-mix(in srgb, var(--default-color) 70%, transparent);
+    color: color-mix(in srgb, black 70%, transparent);
 }
 
 .testimonials .testimonial-item .featured-img-wrapper {
@@ -1937,14 +1938,14 @@ section,
     height: 44px;
     background-color: var(--surface-color);
     border-radius: 50%;
-    border: 1px solid color-mix(in srgb, var(--default-color) 10%, transparent);
+    border: 1px solid color-mix(in srgb, black 10%, transparent);
     transition: 0.3s;
 }
 
 .testimonials .swiper-button-prev::after,
 .testimonials .swiper-button-next::after {
     font-size: 20px;
-    color: var(--default-color);
+    color: black;
 }
 
 .testimonials .swiper-button-prev:hover,
@@ -1976,8 +1977,8 @@ section,
     font-weight: 500;
     padding: 12px 25px;
     cursor: pointer;
-    background: var(--surface-color);
-    color: var(--default-color);
+    background: var(--accent-color);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -2225,7 +2226,7 @@ section,
 .team .team-member {
     position: relative;
     background-color: var(--surface-color);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
     border-radius: 8px;
     transition: 0.3s;
 }
@@ -2256,13 +2257,13 @@ section,
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 5px;
-    color: var(--heading-color);
+    color: black;
 }
 
 .team .team-member .member-info span {
     font-size: 0.9rem;
     font-weight: 400;
-    color: color-mix(in srgb, var(--heading-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
     display: block;
     margin-bottom: 15px;
 }
@@ -2270,7 +2271,7 @@ section,
 .team .team-member .member-info p {
     font-size: 0.9rem;
     margin-bottom: 20px;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
 }
 
 .team .team-member .member-info .social {
@@ -2285,10 +2286,10 @@ section,
     width: 32px;
     height: 32px;
     font-size: 1rem;
-    color: var(--heading-color);
+    color: black;
     transition: 0.3s;
     border-radius: 4px;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
 }
 
 .team .team-member .member-info .social a:hover {
@@ -2342,7 +2343,7 @@ section,
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    border: 1px solid color-mix(in srgb, black, transparent 90%);
 }
 
 .pricing .pricing-card:hover {
@@ -2404,7 +2405,7 @@ section,
 
 .pricing .plan-header p {
     font-size: 15px;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
 }
 
 .pricing .plan-pricing {
@@ -2417,20 +2418,20 @@ section,
     font-size: 24px;
     vertical-align: top;
     line-height: 1;
-    color: var(--heading-color);
+    color: black;
     font-weight: 600;
 }
 
 .pricing .plan-pricing .amount {
     font-size: 60px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: black;
     line-height: 1;
 }
 
 .pricing .plan-pricing .period {
     font-size: 16px;
-    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    color: color-mix(in srgb, black, transparent 40%);
 }
 
 .pricing .plan-features {
@@ -2450,11 +2451,11 @@ section,
     display: flex;
     align-items: center;
     gap: 10px;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
 }
 
 .pricing .plan-features ul li.disabled {
-    color: color-mix(in srgb, var(--default-color), transparent 60%);
+    color: color-mix(in srgb, black, transparent 60%);
 }
 
 .pricing .plan-features ul li i {
@@ -2466,7 +2467,7 @@ section,
 }
 
 .pricing .plan-features ul li i.bi-x-circle-fill {
-    color: color-mix(in srgb, var(--default-color), transparent 60%);
+    color: color-mix(in srgb, black, transparent 60%);
 }
 
 .pricing .plan-cta {
@@ -2478,8 +2479,8 @@ section,
     display: inline-block;
     width: 100%;
     padding: 14px 32px;
-    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
-    color: var(--default-color);
+    background-color: color-mix(in srgb, black, transparent 95%);
+    color: black;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
@@ -2487,7 +2488,7 @@ section,
 }
 
 .pricing .plan-cta .btn-plan:hover {
-    background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+    background-color: color-mix(in srgb, black, transparent 80%);
 }
 
 @media (max-width: 992px) {
@@ -2522,12 +2523,12 @@ section,
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--heading-color);
+    color: black;
 }
 
 .faq .faq-description {
     font-size: 1rem;
-    color: var(--default-color);
+    color: black;
     margin-bottom: 2rem;
 }
 
@@ -2615,7 +2616,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .contact-info-box {
-    background-color: var(--surface-color);
+    background-color: var(--contrast-color);
     border-radius: 10px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
     padding: 25px;
@@ -2655,7 +2656,7 @@ section,
 
 .contact .contact-info-box .info-content p {
     margin-bottom: 5px;
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     font-size: 15px;
     line-height: 1.5;
 }
@@ -2686,7 +2687,7 @@ section,
 }
 
 .contact .contact-form-wrapper {
-    background-color: var(--surface-color);
+    background-color: var(--contrast-color);
     border-radius: 12px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
     padding: 40px;
@@ -2723,7 +2724,7 @@ section,
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
-    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    color: color-mix(in srgb, black, transparent 40%);
     font-size: 18px;
     z-index: 10;
 }
@@ -2741,10 +2742,10 @@ section,
     border-radius: 8px;
     padding: 12px 15px 12px 45px;
     height: 3.5rem;
-    color: var(--default-color);
-    background-color: var(--surface-color);
+    color: black;
+    background-color: var(--contrast-color);
     font-size: 15px;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+    border: 1px solid color-mix(in srgb, black, transparent 80%);
 }
 
 .contact
@@ -2762,7 +2763,7 @@ section,
     .form-group
     .input-with-icon
     .form-control::placeholder {
-    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    color: color-mix(in srgb, black, transparent 40%);
 }
 
 .contact
@@ -2988,13 +2989,13 @@ section,
     font-size: 13px;
     font-weight: 500;
     border-radius: 20px;
-    background-color: color-mix(in srgb, var(--heading-color), transparent 85%);
-    color: var(--heading-color);
+    background-color: color-mix(in srgb, black, transparent 85%);
+    color: black;
     transition: all 0.3s ease;
 }
 
 .portfolio-details .portfolio-details-media .tech-stack-badges span:hover {
-    background-color: color-mix(in srgb, var(--heading-color), transparent 70%);
+    background-color: color-mix(in srgb, black, transparent 70%);
     transform: translateY(-2px);
 }
 
@@ -3039,7 +3040,7 @@ section,
     display: flex;
     align-items: center;
     font-size: 14px;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
 }
 
 .portfolio-details
@@ -3057,7 +3058,7 @@ section,
     margin-bottom: 1rem;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--heading-color);
+    color: black;
 }
 
 .portfolio-details .portfolio-details-content .project-website {
@@ -3088,7 +3089,7 @@ section,
 .portfolio-details .portfolio-details-content .project-overview .lead {
     font-size: 1.1rem;
     line-height: 1.7;
-    color: color-mix(in srgb, var(--default-color), transparent 15%);
+    color: color-mix(in srgb, black, transparent 15%);
     margin-bottom: 1.5rem;
 }
 
@@ -3112,7 +3113,7 @@ section,
     padding: 1rem;
     font-weight: 600;
     font-size: 1rem;
-    color: var(--heading-color);
+    color: black;
     background-color: color-mix(in srgb, var(--surface-color), transparent 70%);
     border-radius: 8px !important;
     box-shadow: none;
@@ -3186,7 +3187,7 @@ section,
     .accordion-body
     p {
     margin-bottom: 0;
-    color: color-mix(in srgb, var(--default-color), transparent 25%);
+    color: color-mix(in srgb, black, transparent 25%);
     line-height: 1.6;
 }
 
@@ -3221,7 +3222,7 @@ section,
     align-items: center;
     padding: 8px 0;
     font-size: 15px;
-    color: color-mix(in srgb, var(--default-color), transparent 15%);
+    color: color-mix(in srgb, black, transparent 15%);
 }
 
 .portfolio-details
@@ -3262,8 +3263,8 @@ section,
 
 .portfolio-details .portfolio-details-content .cta-buttons .btn-next-project {
     padding: 12px 28px;
-    background-color: color-mix(in srgb, var(--heading-color), transparent 90%);
-    color: var(--heading-color);
+    background-color: color-mix(in srgb, black, transparent 90%);
+    color: black;
     border-radius: 30px;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -3280,7 +3281,7 @@ section,
     .portfolio-details-content
     .cta-buttons
     .btn-next-project:hover {
-    background-color: color-mix(in srgb, var(--heading-color), transparent 80%);
+    background-color: color-mix(in srgb, black, transparent 80%);
 }
 
 .portfolio-details
@@ -3369,7 +3370,7 @@ section,
     display: flex;
     align-items: center;
     font-size: 15px;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
 }
 
 .service-details .service-header .service-meta span i {
@@ -3381,7 +3382,7 @@ section,
 .service-details .service-header .lead {
     font-size: 18px;
     line-height: 1.7;
-    color: color-mix(in srgb, var(--default-color), transparent 15%);
+    color: color-mix(in srgb, black, transparent 15%);
 }
 
 .service-details .service-tabs {
@@ -3389,8 +3390,7 @@ section,
 }
 
 .service-details .service-tabs .nav-tabs {
-    border-bottom: 2px solid
-        color-mix(in srgb, var(--heading-color), transparent 90%);
+    border-bottom: 2px solid color-mix(in srgb, black, transparent 90%);
     margin-bottom: 30px;
 }
 
@@ -3403,7 +3403,7 @@ section,
     border-radius: 0;
     padding: 12px 20px;
     font-weight: 600;
-    color: color-mix(in srgb, var(--heading-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
     position: relative;
     transition: all 0.3s;
     display: flex;
@@ -3427,7 +3427,7 @@ section,
 }
 
 .service-details .service-tabs .nav-tabs .nav-link:hover {
-    color: var(--heading-color);
+    color: black;
     background-color: transparent;
 }
 
@@ -3451,7 +3451,7 @@ section,
 }
 
 .service-details .service-tabs .tab-content .content-block p {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     margin-bottom: 15px;
     line-height: 1.7;
 }
@@ -3539,7 +3539,7 @@ section,
     .timeline-item
     .timeline-content
     p {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     line-height: 1.6;
 }
 
@@ -3616,7 +3616,7 @@ section,
 }
 
 .service-details .service-tabs .tab-content .benefit-card p {
-    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    color: color-mix(in srgb, black, transparent 20%);
     margin-bottom: 0;
 }
 
@@ -3819,8 +3819,7 @@ section,
     font-weight: 700;
     margin-bottom: 25px;
     padding-bottom: 15px;
-    border-bottom: 2px solid
-        color-mix(in srgb, var(--heading-color), transparent 90%);
+    border-bottom: 2px solid color-mix(in srgb, black, transparent 90%);
 }
 
 .service-details .service-sidebar .service-features-list ul {
@@ -3864,7 +3863,7 @@ section,
 }
 
 .service-details .service-sidebar .service-features-list ul li div p {
-    color: color-mix(in srgb, var(--default-color), transparent 25%);
+    color: color-mix(in srgb, black, transparent 25%);
     margin: 0;
     font-size: 14px;
 }
@@ -3914,7 +3913,7 @@ section,
     font-style: italic;
     line-height: 1.7;
     margin-bottom: 20px;
-    color: color-mix(in srgb, var(--default-color), transparent 15%);
+    color: color-mix(in srgb, black, transparent 15%);
 }
 
 .service-details .service-sidebar .testimonial-card .client-info {
@@ -3948,11 +3947,11 @@ section,
     .client-details
     span {
     font-size: 14px;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
 }
 
 .service-details .service-sidebar .contact-info {
-    background-color: var(--surface-color);
+    background-color: #ffffff;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
@@ -3995,14 +3994,14 @@ section,
 .service-details .service-sidebar .contact-info .contact-method div span {
     display: block;
     font-size: 14px;
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    color: color-mix(in srgb, black, transparent 30%);
     margin-bottom: 5px;
 }
 
 .service-details .service-sidebar .contact-info .contact-method div p {
     margin: 0;
     font-weight: 600;
-    color: var(--heading-color);
+    color: black;
 }
 
 @media (max-width: 991px) {
