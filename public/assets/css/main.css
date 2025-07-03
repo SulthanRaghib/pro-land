@@ -3546,7 +3546,7 @@ section,
 }
 
 .service-details .service-tabs .tab-content .benefit-card {
-    background-color: var(--surface-color);
+    background-color: var(--contrast-color);
     border-radius: 12px;
     padding: 30px;
     transition: all 0.3s ease;
