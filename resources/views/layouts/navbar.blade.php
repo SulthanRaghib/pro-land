@@ -3,8 +3,12 @@
 
     <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="{{ url('assets/img/logo.webp') }}" alt=""> -->
-        <h1 class="sitename">JAS PRO LAND</h1>
+        <img src="{{ url('assets/img/jas_pro_land/favicon_io/apple-touch-icon.png') }}" alt="Logo JAS PRO LAND"
+            class="img-fluid" style="max-height: 60px; height: auto; margin-right: 10px;">
+        <div>
+            <h1 class="sitename" style="color: white">JAS PRO LAND</h1>
+            <p class="mb-0 text-white" style="font-size: 12px">Properties That Understand Your Need</p>
+        </div>
     </a>
 
     <nav id="navmenu" class="navmenu">
@@ -135,6 +139,6 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
 
-    <a class="btn-getstarted" href="#about">Get Started</a>
+    {{-- <a class="btn-getstarted" href="#about">Get Started</a> --}}
 
 </div>

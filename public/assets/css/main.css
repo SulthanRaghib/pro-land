@@ -300,7 +300,9 @@ h6 {
         display: block;
         position: absolute;
         visibility: hidden;
-        left: 14px;
+        left: auto;
+        right: 0;
+        max-width: 90vw; /* responsif, tidak lebih dari viewport */
         top: 130%;
         opacity: 0;
         transition: 0.3s;
