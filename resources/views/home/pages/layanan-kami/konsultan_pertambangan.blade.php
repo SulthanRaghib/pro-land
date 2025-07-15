@@ -1,4 +1,7 @@
 @extends('homepage')
+@section('meta_description', 'Layanan Konsultan Pertambangan - JAS PRO LAND')
+@section('meta_keywords', 'konsultan pertambangan, jasa pertambangan, legalitas tambang, studi kelayakan, perencanaan
+    produksi, JAS PRO LAND')
 @section('content')
     @push('styles')
         <style>

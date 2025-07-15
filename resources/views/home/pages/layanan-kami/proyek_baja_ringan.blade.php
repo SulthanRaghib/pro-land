@@ -1,4 +1,7 @@
 @extends('homepage')
+@section('meta_description', 'Layanan Proyek Baja Ringan - JAS PRO LAND')
+@section('meta_keywords', 'proyek baja ringan, konstruksi baja ringan, jasa konstruksi, rangka baja ringan, JAS PRO
+    LAND')
 @section('content')
     @push('styles')
         <style>

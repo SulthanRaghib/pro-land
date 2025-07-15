@@ -1,4 +1,8 @@
 @extends('homepage')
+@section('meta_description', 'Layanan Proyek Pembangunan - JAS PRO LAND')
+@section('meta_keywords',
+    'proyek pembangunan, jasa konstruksi, pembangunan gedung, pembangunan rumah, pembangunan
+    infrastruktur, JAS PRO LAND')
 @section('content')
     @push('styles')
         <style>

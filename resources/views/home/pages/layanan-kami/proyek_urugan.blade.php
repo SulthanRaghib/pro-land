@@ -1,4 +1,6 @@
 @extends('homepage')
+@section('meta_description', 'Layanan Proyek Urugan - JAS PRO LAND')
+@section('meta_keywords', 'proyek urugan, jasa urugan tanah, persiapan lahan, urugan tanah profesional, JAS PRO LAND')
 @section('content')
     @push('styles')
         <style>

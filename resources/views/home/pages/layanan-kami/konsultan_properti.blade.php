@@ -1,4 +1,7 @@
 @extends('homepage')
+@section('meta_description', 'Layanan Konsultan Properti - JAS PRO LAND')
+@section('meta_keywords', 'konsultan properti, jasa properti, legalitas properti, pengembangan properti, pemasaran
+    properti, JAS PRO LAND')
 @section('content')
     @push('styles')
         <style>
