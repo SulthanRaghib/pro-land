@@ -3,8 +3,8 @@
 
     <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="{{ url('assets/img/jas_pro_land/favicon_io/apple-touch-icon.png') }}" alt="Logo JAS PRO LAND"
-            class="img-fluid" style="max-height: 60px; height: auto; margin-right: 10px;">
+        <img src="{{ url('apple-touch-icon.png') }}" alt="Logo JAS PRO LAND" class="img-fluid"
+            style="max-height: 60px; height: auto; margin-right: 10px;">
         <div>
             <h1 class="sitename" style="color: white">JAS PRO LAND</h1>
             <p class="mb-0 text-white" style="font-size: 12px">Properties That Understand Your Need</p>

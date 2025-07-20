@@ -12,23 +12,77 @@
 <meta property="og:description" content="@yield('meta_description', 'PT. JAS PRO LAND menyediakan layanan konstruksi gedung, proyek baja ringan, urugan tanah, pengelolaan tambang, serta jasa konsultasi properti dan pertambangan profesional.')">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ url()->current() }}">
-<meta property="og:image" content="{{ url('assets/img/jas_pro_land/favicon_io/favicon.ico') }}">
+<meta property="og:image" content="{{ url('favicon.ico') }}">
 <meta property="og:image:alt" content="PT. JAS PRO LAND Logo">
 <meta property="og:site_name" content="PT. JAS PRO LAND">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Beranda",
+      "item": "https://www.jasproland.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Layanan",
+      "item": "https://www.jasproland.com/layanan-kami"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Konstruksi",
+      "item": "https://www.jasproland.com/layanan-kami/proyek-pembangunan"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Baja Ringan",
+      "item": "https://www.jasproland.com/layanan-kami/proyek-baja-ringan"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Urugan Tanah",
+      "item": "https://www.jasproland.com/layanan-kami/urugan-tanah"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Tambang",
+      "item": "https://www.jasproland.com/layanan-kami/proyek-tambang"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Konsultan Properti",
+      "item": "https://www.jasproland.com/layanan-kami/konsultan-properti"
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "name": "Konsultan Pertambangan",
+      "item": "https://www.jasproland.com/layanan-kami/konsultan-pertambangan"
+    }
+  ]
+}
+</script>
+
 <!-- Favicon for all devices -->
-<link rel="icon" type="image/png" sizes="32x32"
-    href="{{ url('assets/img/jas_pro_land/favicon_io/favicon-32x32.png') }}">
-<link rel="shortcut icon" href="{{ url('assets/img/jas_pro_land/favicon_io/favicon.ico') }}" type="image/x-icon">
-<link rel="icon" type="image/svg+xml" href="{{ url('assets/img/jas_pro_land/favicon_io/favicon.svg') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
+<link rel="shortcut icon" href="{{ url('favicon.ico') }}" type="image/x-icon">
+<link rel="icon" type="image/svg+xml" href="{{ url('favicon.svg') }}">
 <!-- Apple Touch Icon -->
-<link rel="apple-touch-icon" sizes="180x180"
-    href="{{ url('assets/img/jas_pro_land/favicon_io/apple-touch-icon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url('apple-touch-icon.png') }}">
 <!-- Android Chrome Icon -->
-<link rel="icon" type="image/png" sizes="192x192"
-    href="{{ url('assets/img/jas_pro_land/favicon_io/android-chrome-192x192.png') }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ url('android-chrome-192x192.png') }}">
 <!-- Web App Manifest -->
-<link rel="manifest" href="{{ url('assets/img/jas_pro_land/favicon_io/site.webmanifest') }}">
+<link rel="manifest" href="{{ url('site.webmanifest') }}">
 
 
 <!-- Fonts -->
