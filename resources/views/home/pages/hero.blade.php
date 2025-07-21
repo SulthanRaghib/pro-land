@@ -1,62 +1,82 @@
- <div class="container mt-4">
-     <div class="row">
-         <div class="col-lg-7 content-col" data-aos="fade-up">
-             <div class="content">
-                 <div class="agency-name">
-                     <h5>Perusahaan Konstruksi & Development</h5>
+ <div id="carouselHero" class="carousel slide carousel-fade h-100" data-bs-ride="carousel" data-bs-interval="5000">
+     <div class="carousel-inner h-100">
+
+         <!-- Slide -->
+         @php
+             $slides = [
+                 [
+                     'image' => 'gedung.png',
+                     'title' => 'JAS PRO LAND',
+                     'subtitle' => 'DEVELOPMENT',
+                     'desc' => 'Properties That Understand Your Needs',
+                     'text' =>
+                         'Membangun masa depan dengan inovasi konstruksi dan pengembangan lahan berkelanjutan. Solusi properti yang memahami kebutuhan Anda dengan kualitas terpercaya.',
+                     'btn' => [
+                         'label' => 'MULAI PROYEK ANDA SEKARANG',
+                         'link' => '#layanan-kami',
+                         'class' => 'btn-success btn-lg p-3',
+                     ],
+                 ],
+                 [
+                     'image' => 'pembangunan_img.jpg',
+                     'title' => 'Bangun Masa Depan',
+                     'subtitle' => 'Dengan JAS PRO LAND',
+                     'desc' => 'Infrastruktur yang dibangun dengan visi jangka panjang.',
+                     'text' => '',
+                     'btn' => [
+                         'label' => 'LIHAT PORTOFOLIO',
+                         'link' => route('portfolio'),
+                         'class' => 'btn-warning btn-lg p-3',
+                     ],
+                 ],
+                 [
+                     'image' => 'konsultan_tambang.png',
+                     'title' => 'Solusi Konstruksi',
+                     'subtitle' => 'Bersama Profesional Terpercaya',
+                     'desc' => 'Keamanan, kenyamanan, dan nilai investasi properti Anda.',
+                     'text' => '',
+                     'btn' => [
+                         'label' => 'HUBUNGI KAMI',
+                         'link' => route('hubungi.kami'),
+                         'class' => 'btn-primary btn-lg p-3',
+                     ],
+                 ],
+             ];
+         @endphp
+
+         @foreach ($slides as $i => $s)
+             <div class="carousel-item h-100 {{ $i == 0 ? 'active' : '' }}">
+                 <div class="position-absolute w-100 h-100 bg-dark opacity-75 z-1"></div>
+                 <div class="position-absolute w-100 h-100 bg-image z-0"
+                     style="background-image: url('{{ asset('assets/img/jas_pro_land/' . $s['image']) }}'); background-size: cover; background-position: center; background-attachment: fixed;">
                  </div>
-
-                 <div class="main-heading mb-0">
-                     <h1 style="color: #e3a127">
-                         PT. JAS PRO LAND
-                     </h1>
-
-                 </div>
-
-                 <div class="divider"></div>
-
-                 <div class="description">
-                     <p>
-                         <span class="fw-bold" style="color: #e3a127">JAS PRO LAND</span> adalah mitra profesional Anda
-                         dalam <strong>jasa konstruksi, pengembangan kawasan perumahan modern, dan pembangunan
-                             infrastruktur berkualitas</strong>.
-                         Kami menghadirkan solusi properti <strong>berkelanjutan</strong> yang mengutamakan
-                         <strong>kenyamanan, keamanan, dan nilai investasi jangka panjang</strong>.
-                         <br><br>
-                         Dari <strong>perencanaan proyek</strong> hingga realisasi bangunan, kami memastikan setiap
-                         detail sesuai standar tinggi yang dipercaya oleh ratusan klien di seluruh Indonesia.
-                     </p>
-                 </div>
-
-                 <div class="cta-button">
-                     <a href="#layanan-kami" class="btn">
-                         <span>MULAI PROYEK ANDA SEKARANG</span>
-                         <i class="bi bi-arrow-right"></i>
-                     </a>
+                 <div
+                     class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100 text-white z-2">
+                     <h1 class="display-4 fw-bold text-white animate__animated animate__fadeInDown">
+                         {{ $s['title'] }}</h1>
+                     <h2 class="fw-light text-white animate__animated animate__fadeInLeft">{{ $s['subtitle'] }}</h2>
+                     <p class="lead mt-3 animate__animated animate__fadeInUp">{{ $s['desc'] }}</p>
+                     @if ($s['text'])
+                         <p class="mt-3 animate__animated animate__fadeInUp px-5">{{ $s['text'] }}</p>
+                     @endif
+                     <div class="cta-button mt-3">
+                         <a href="{{ $s['btn']['link'] }}" class="btn {{ $s['btn']['class'] }} rounded-5">
+                             {{ $s['btn']['label'] }} <i class="bi bi-arrow-right"></i>
+                         </a>
+                     </div>
                  </div>
              </div>
-         </div>
+         @endforeach
 
-         <div class="col-lg-5" data-aos="zoom-out">
-             <div class="visual-content">
-                 <div class="fluid-shape">
-                     <img src="{{ url('assets/img/jas_pro_land/gedung.png') }}"
-                         alt="Jasa Konstruksi dan Developer PT. JAS PRO LAND" class="fluid-img rounded-5 shadow-sm"
-                         loading="lazy">
-                 </div>
-
-                 {{-- <div class="stats-card">
-                            <div class="stats-number">
-                                <h2>5K</h2>
-                            </div>
-                            <div class="stats-label">
-                                <p>Successful Campaigns</p>
-                            </div>
-                            <div class="stats-arrow">
-                                <a href="#portfolio"><i class="bi bi-arrow-up-right"></i></a>
-                            </div>
-                        </div> --}}
-             </div>
-         </div>
      </div>
+
+     <!-- Arrows -->
+     <button class="carousel-control-prev z-3" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon rounded-circle p-3" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next z-3" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+         <span class="carousel-control-next-icon rounded-circle p-3" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+     </button>
  </div>
