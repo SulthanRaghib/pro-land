@@ -6,8 +6,8 @@
         <img src="{{ url('apple-touch-icon.png') }}" alt="Logo JAS PRO LAND" class="img-fluid"
             style="max-height: 60px; height: auto; margin-right: 10px;">
         <div>
-            <h1 class="sitename" style="color: white">JAS PRO LAND</h1>
-            <p class="mb-0 text-white" style="font-size: 12px">Properties That Understand Your Need</p>
+            <h1 class="sitename">JAS PRO LAND</h1>
+            <p class="mb-0" style="font-size: 12px">Properties That Understand Your Need</p>
         </div>
     </a>
 
