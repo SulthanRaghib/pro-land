@@ -1,8 +1,11 @@
 <div>
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Layanan</h2>
-        <div><span>Lihat</span> <span class="description-title">Layanan Unggulan Kami</span></div>
+    <div class="container" data-aos="fade-up">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-5">Layanan Kami</h2>
+            <div class="lead text-muted"><span>Lihat</span> <span class="description-title">Layanan Unggulan Kami</span>
+            </div>
+        </div>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -19,13 +22,13 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="service-summary">
-                        <p>
+                        <p class="text-muted">
                             PT. JAS PRO LAND menawarkan berbagai <strong>layanan konstruksi profesional</strong> dan
                             <strong>jasa pengembangan properti terpercaya di Indonesia</strong>. Kami siap mendukung
                             setiap proyek pembangunan Anda dengan pengalaman, teknologi mutakhir, dan komitmen tinggi
                             terhadap kualitas.
                         </p>
-                        <a href="#contact" class="service-btn">
+                        <a href="{{ route('hubungi.kami') }}" class="service-btn rounded-5 btn">
                             Konsultasikan Proyek Anda
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -37,7 +40,7 @@
         <div class="row justify-content-center">
             <!-- Proyek Pembangunan -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-building"></i>
                     </div>
@@ -59,7 +62,7 @@
 
             <!-- Proyek Baja Ringan -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-layers"></i>
                     </div>
@@ -81,7 +84,7 @@
 
             <!-- Proyek Urugan -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-truck"></i>
                     </div>
@@ -102,7 +105,7 @@
 
             <!-- Proyek Tambang -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-gem"></i>
                     </div>
@@ -123,7 +126,7 @@
 
             <!-- Jasa Konsultan Properti -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-briefcase"></i>
                     </div>
@@ -145,7 +148,7 @@
 
             <!-- Jasa Konsultan Pertambangan -->
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-card position-relative z-1">
+                <div class="service-card position-relative z-1 rounded-4 shadow-sm">
                     <div class="service-icon">
                         <i class="bi bi-bar-chart"></i>
                     </div>
