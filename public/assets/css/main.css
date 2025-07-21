@@ -30,9 +30,13 @@
         0.8
     ); /* Default color used for the majority of the text content across the entire website */
     --heading-color: #e0e9f2; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #e3a127; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #ffc107; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #1b262c; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+    --green-color: #198754; /* A specific green color used for elements that require a green accent, such as buttons or highlights */
+    --heavy-dark-green-color: #063d2b; /* A darker shade of green used for elements that require a more pronounced green accent */
+    --dark-green-color: #0f3f2e; /* A darker shade of green used for elements that require a more subdued green accent */
+    --light-green-color: #66d1a8; /* A lighter shade of green used for elements that require a more vibrant green accent */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -85,7 +89,7 @@ body {
 }
 
 a {
-    color: var(--accent-color);
+    color: var(--green-color);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -170,7 +174,7 @@ h6 {
 }
 
 .header .header-container {
-    background: var(--accent-color);
+    background: var(--contrast-color);
     border-radius: 50px;
     padding: 5px 25px 5px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -191,12 +195,12 @@ h6 {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: var(--heading-color);
+    color: var(--green-color);
 }
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
-    color: var(--contrast-color);
+    color: var(--green-color);
     background: var(--accent-color);
     font-size: 14px;
     padding: 8px 20px;
@@ -207,7 +211,7 @@ h6 {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-    color: var(--contrast-color);
+    color: var(--green-color);
     background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
@@ -260,7 +264,7 @@ h6 {
 
     .navmenu a,
     .navmenu a:focus {
-        color: var(--nav-color);
+        color: var(--green-color);
         padding: 18px 15px;
         font-size: 16px;
         font-family: var(--nav-font);
@@ -287,7 +291,7 @@ h6 {
     .navmenu li:hover > a,
     .navmenu .active,
     .navmenu .active:focus {
-        color: #00820e;
+        color: var(--accent-color);
         font-weight: 700;
     }
 
@@ -296,7 +300,7 @@ h6 {
         max-width: 700px !important;
         margin: 0;
         padding: 10px 0;
-        background: var(--nav-dropdown-background-color);
+        background: var(--contrast-color);
         display: block;
         position: absolute;
         visibility: hidden;
@@ -319,7 +323,7 @@ h6 {
         padding: 10px 20px;
         font-size: 15px;
         text-transform: none;
-        color: var(--nav-dropdown-color);
+        color: var(--green-color);
     }
 
     .navmenu .dropdown ul a i {
@@ -329,7 +333,7 @@ h6 {
     .navmenu .dropdown ul a:hover,
     .navmenu .dropdown ul .active:hover,
     .navmenu .dropdown ul li:hover > a {
-        color: var(--nav-dropdown-hover-color);
+        color: var(--green-color);
     }
 
     .navmenu .dropdown:hover > ul {
@@ -355,7 +359,7 @@ h6 {
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
     .mobile-nav-toggle {
-        color: var(--nav-color);
+        color: var(--green-color);
         font-size: 28px;
         line-height: 0;
         margin-right: 10px;
@@ -376,7 +380,7 @@ h6 {
         padding: 10px 0;
         margin: 0;
         border-radius: 6px;
-        background-color: var(--accent-color);
+        background-color: var(--contrast-color);
         overflow-y: auto;
         transition: 0.3s;
         z-index: 9998;
@@ -385,7 +389,7 @@ h6 {
 
     .navmenu a,
     .navmenu a:focus {
-        color: var(--nav-dropdown-color);
+        color: var(--green-color);
         padding: 10px 20px;
         font-family: var(--nav-font);
         font-size: 17px;
@@ -418,22 +422,21 @@ h6 {
 
     .navmenu a i:hover,
     .navmenu a:focus i:hover {
-        background-color: var(--accent-color);
-        color: var(--contrast-color);
+        background-color: var(--green-color);
+        color: var(--accent-color);
     }
 
     .navmenu a:hover,
     .navmenu .active,
     .navmenu .active:focus {
-        color: #00820e;
+        color: var(--accent-color);
         font-weight: 700;
     }
 
     .navmenu .active i,
     .navmenu .active:focus i {
-        background-color: var(--accent-color);
-        color: var(--contrast-color);
-        transform: rotate(180deg);
+        background-color: var(--default-color);
+        color: var(--green-color);
     }
 
     .navmenu .dropdown ul {
@@ -488,8 +491,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-    color: black;
-    background-color: var(--contrast-color);
+    color: var(--contrast-color);
+    background-color: var(--dark-green-color);
     font-size: 14px;
     padding-bottom: 50px;
     position: relative;
@@ -576,7 +579,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-    color: color-mix(in srgb, black, transparent 20%);
+    color: color-mix(in srgb, var(--contrast-color), transparent 20%);
     display: inline-block;
     line-height: 1;
 }
@@ -592,7 +595,8 @@ h6 {
 .footer .copyright {
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+    background-color: var(--heavy-dark-green-color);
+    border-radius: 0.5rem;
 }
 
 .footer .copyright p {
@@ -919,9 +923,9 @@ section,
 .hero .cta-button .btn {
     display: inline-flex;
     align-items: center;
-    background-color: transparent;
-    border: 1px solid color-mix(in srgb, black, transparent 40%);
-    color: black;
+    background-color: var(--accent-color);
+    border: 1px solid color-mix(in srgb, rgb(255, 255, 255), transparent 40%);
+    color: rgb(255, 255, 255);
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -940,8 +944,8 @@ section,
 }
 
 .hero .cta-button .btn:hover {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
+    background-color: var(--green-color);
+    border-color: var(--green-color);
     color: var(--contrast-color);
 }
 
@@ -1439,7 +1443,8 @@ section,
 .services .service-card:hover::before {
     opacity: 1;
     visibility: visible;
-    background-color: #00820e;
+    background-color: var(--green-color);
+    border-radius: 1rem;
 }
 
 .services .service-card:hover h3 a {
@@ -2539,7 +2544,7 @@ section,
 }
 
 .faq .faq-container .faq-item {
-    background-color: var(--surface-color);
+    background-color: var(--green-color);
     position: relative;
     padding: 20px;
     margin-bottom: 15px;
@@ -2560,6 +2565,7 @@ section,
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: var(--contrast-color);
 }
 
 .faq .faq-container .faq-item h3 .num {
@@ -2582,6 +2588,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
     margin-bottom: 0;
     overflow: hidden;
+    color: var(--contrast-color);
 }
 
 .faq .faq-container .faq-item .faq-toggle {
@@ -2592,6 +2599,7 @@ section,
     line-height: 0;
     transition: 0.3s;
     cursor: pointer;
+    color: var(--contrast-color);
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
