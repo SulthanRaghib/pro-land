@@ -3,9 +3,11 @@
         <div class="row">
 
             <div class="col-lg-5" data-aos="fade-up">
-                <h2 class="faq-title">Have a question? Check out the FAQ</h2>
-                <p class="faq-description">Maecenas tempus tellus eget condimentum rhoncus sem quam semper
-                    libero sit amet adipiscing sem neque sed ipsum.</p>
+                <h2 class="faq-title">
+                    Pertanyaan yang Sering Diajukan
+                </h2>
+                <p class="lead text-muted">Berikut adalah beberapa pertanyaan umum tentang PT. JAS PRO LAND dan layanan
+                    kami. Jika Anda memiliki pertanyaan lain, jangan ragu untuk menghubungi kami.</p>
                 <div class="faq-arrow d-none d-lg-block" data-aos="fade-up" data-aos-delay="200">
                     <svg class="faq-arrow" width="200" height="211" viewBox="0 0 200 211" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -19,71 +21,83 @@
             <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
                 <div class="faq-container">
 
+                    <!-- FAQ Item -->
                     <div class="faq-item faq-active">
-                        <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                        <h3>Apa itu PT. JAS PRO LAND?</h3>
                         <div class="faq-content">
-                            <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                rhoncus dolor purus non.</p>
+                            <p>PT. JAS PRO LAND adalah perusahaan pengembang konstruksi di Indonesia yang didirikan
+                                berdasarkan Akta No. 88 tanggal 26 Februari 2025. Kami bergerak di bidang jasa
+                                konstruksi seperti pembangunan gedung, jalan raya, irigasi, rangka atap baja ringan,
+                                serta layanan developer dan pertambangan.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
+                    </div>
 
                     <div class="faq-item">
-                        <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                        <h3>Kapan PT. JAS PRO LAND didirikan?</h3>
                         <div class="faq-content">
-                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                            <p>PT. JAS PRO LAND didirikan pada tanggal 26 Februari 2025, berdasarkan Akta No. 88.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
+                    </div>
 
                     <div class="faq-item">
-                        <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                        <h3>Apa saja layanan utama yang ditawarkan oleh JAS PRO LAND?</h3>
                         <div class="faq-content">
-                            <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            <p>Kami menawarkan berbagai layanan, termasuk proyek pembangunan (rumah klasik modern, ruko,
+                                dll.), proyek baja ringan, proyek urugan, proyek tambang (pasir), jasa konsultan
+                                properti, dan jasa konsultan pertambangan.</p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Di mana lokasi kantor pusat JAS PRO LAND?</h3>
+                        <div class="faq-content">
+                            <p>Kantor pusat kami berlokasi di House Office Kragilan, Kabupaten Serang, Banten.</p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Bagaimana cara menghubungi JAS PRO LAND?</h3>
+                        <div class="faq-content">
+                            <p>Anda dapat menghubungi kami melalui hotline di 0811-135-745 atau mengirim email ke <a
+                                    class="text-white" href="mailto:Prolandjas@gmail.com">Prolandjas@gmail.com</a>.</p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Proyek pembangunan seperti apa yang pernah dikerjakan JAS PRO LAND?</h3>
+                        <div class="faq-content">
+                            <p>Kami telah mengerjakan berbagai proyek pembangunan seperti Rumah Klasik Modern dan
+                                Interior Ciruas, Rumah Klasik Modern dan Interior Serang, Rumah Klasik Modern Serang,
+                                Café Saung Serang, serta Ruko dan Rumah Subsidi Mitra Garden Serang.</p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Apakah JAS PRO LAND memiliki legalitas perusahaan yang lengkap?</h3>
+                        <div class="faq-content">
+                            <p>Ya, kami memiliki legalitas lengkap termasuk Akta Pendirian, SK Kehakiman Pendirian,
+                                Nomor Induk Berusaha (NIB) dengan kode KBLI relevan, dan Nomor Pokok Wajib Pajak (NPWP).
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
+                    </div>
 
                     <div class="faq-item">
-                        <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                        <h3>Apa slogan PT. JAS PRO LAND?</h3>
                         <div class="faq-content">
-                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                            <p>Slogan kami adalah <em>"Properties That Understand Your Needs"</em>.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
-
-                    <div class="faq-item">
-                        <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                        <div class="faq-content">
-                            <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse
-                                in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                            </p>
-                        </div>
-                        <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
-
-                    <div class="faq-item">
-                        <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                        <div class="faq-content">
-                            <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
-                                in suscipit sequi. Distinctio ipsam dolore et.</p>
-                        </div>
-                        <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
+                    </div>
 
                 </div>
+
             </div>
 
         </div>

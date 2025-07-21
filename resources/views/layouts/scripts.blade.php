@@ -9,3 +9,20 @@
 
 <!-- Main JS File -->
 <script src="{{ url('assets/js/main.js') }}"></script>
+
+{{-- faq active menghilang --}}
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach(item => {
+            item.addEventListener("click", function() {
+                // Hapus semua class 'faq-active' dari semua item
+                faqItems.forEach(i => i.classList.remove("faq-active"));
+
+                // Tambahkan class 'faq-active' ke item yang diklik
+                this.classList.add("faq-active");
+            });
+        });
+    });
+</script>
