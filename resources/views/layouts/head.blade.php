@@ -108,7 +108,20 @@
 <!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+<!-- Animate.css for animation -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 <style>
+    .bg-gradient-green {
+        background: linear-gradient(to bottom, #0f3f2e, #198754, #66d1a8);
+    }
+
+    .bg-gradient-green h2,
+    .bg-gradient-green p {
+        color: var(--contrast-color) !important;
+    }
+
+
     /* Mega Menu Styling */
     .mega-menu {
         background-color: #333;
@@ -127,20 +140,27 @@
     }
 
     .mega-menu a:hover {
-        background: rgba(255, 215, 0, 0.1);
+        background: #1987543d;
         transform: translateY(-2px);
     }
 
     .active-layanan {
-        background: rgba(255, 215, 0, 0.2);
-        color: #ffd700 !important;
+        background: var(--green-color);
+        color: var(--ascent-color);
+    }
+
+    /* buat tag <i></i> dan tag <h5></h5> dan tag <p></p> setelah class .active-layanan di dalamannya menjadi text white */
+    .mega-menu a.active-layanan i,
+    .mega-menu a.active-layanan h5,
+    .mega-menu a.active-layanan p {
+        color: var(--contrast-color);
     }
 
     .mega-menu h5 {
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 8px;
-        color: #fff;
+        color: #00820e;
         transition: color 0.3s ease;
     }
 
@@ -155,7 +175,7 @@
     .mega-menu p {
         font-size: 13px;
         line-height: 1.4;
-        color: rgba(255, 255, 255, 0.7);
+        color: #00820e;
         margin-bottom: 0;
         transition: none !important;
         /* Matikan semua transisi pada paragraf */
@@ -163,11 +183,11 @@
 
     /* Pastikan paragraf tidak berubah saat hover */
     .mega-menu a:hover p {
-        color: rgba(255, 255, 255, 0.7) !important;
+        color: #00820e !important;
     }
 
     .mega-menu i {
-        color: #ffffff;
+        color: var(--ascent-color);
         transition: all 0.3s ease;
     }
 
@@ -180,6 +200,7 @@
     @media (max-width: 768px) {
         .mega-menu h5 {
             font-size: 14px;
+            color: var(--contrast-color);
         }
 
         .mega-menu p {
