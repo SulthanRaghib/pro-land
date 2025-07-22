@@ -254,4 +254,10 @@ class HomeController extends Controller
         $title = 'Tentang Kami';
         return view('home.pages.tentang_kami', compact('title'));
     }
+
+    public function tentangFaq()
+    {
+        $title = 'FAQ';
+        return view('home.pages.tentang-kami.faq', compact('title'));
+    }
 }
