@@ -172,7 +172,6 @@
             </li>
             <li><a href="{{ route('portfolio') }}" class="{{ Route::is('portfolio') ? 'active' : '' }}">Proyek</a>
             </li>
-            <li><a href="{{ route('home') }}#ceo">CEO</a></li>
             <li><a href="{{ route('hubungi.kami') }}"
                     class="{{ Route::is('hubungi.kami') ? 'active' : '' }}">Hubungi
                     Kami</a></li>
