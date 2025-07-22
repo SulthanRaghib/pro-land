@@ -135,6 +135,6 @@ Silakan fork dan ajukan PR untuk perbaikan atau fitur tambahan.
 Proyek ini dikembangkan sebagai bagian dari portofolio profesional untuk PT. JAS PRO LAND.
 
 © 2025 Sulthan Raghib – All Rights Reserved  
-Untuk kerja sama atau pertanyaan: **sulthanraghib09@gmail.com**
+Untuk kerja sama atau pertanyaan: **sulthan.raghib09@gmail.com**
 
 ---

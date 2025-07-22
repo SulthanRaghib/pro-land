@@ -10,7 +10,7 @@ Kami berkomitmen menjaga keamanan dan integritas kode sumber website company pro
 
 Jika Anda menemukan celah keamanan atau kerentanan, silakan laporkan langsung melalui email:
 
-📧 **sulthanraghib09@gmail.com**  
+📧 **sulthan.raghib09@gmail.com**  
 🕒 Waktu tanggapan: biasanya dalam 1–3 hari kerja
 
 Mohon untuk tidak mempublikasikan kerentanan secara terbuka sebelum kami melakukan perbaikan.
