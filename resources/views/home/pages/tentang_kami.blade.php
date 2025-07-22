@@ -23,5 +23,8 @@
         <section id="ceo" class="team section light-background">
             @include('home.pages.team')
         </section><!-- /Team Section -->
+
+        {{-- contact --}}
+        @include('home.pages.tentang-kami.alamat_contact')
     </div>
 @endsection
