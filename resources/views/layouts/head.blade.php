@@ -111,6 +111,9 @@
 <!-- Animate.css for animation -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+{{-- Custom CEO SHOWCASE --}}
+<link rel="stylesheet" href="{{ url('assets/css/ceo-showcase.css') }}">
+
 <style>
     .bg-gradient-green {
         background: linear-gradient(to bottom, #0f3f2e, #198754, #66d1a8);
@@ -194,6 +197,21 @@
     .mega-menu a:hover i {
         transform: scale(1.1);
         color: #ffd700;
+    }
+
+    .btn-warning-custom {
+        background-color: #ffc107;
+        color: #000000;
+        border-radius: 5px;
+        padding: 15px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-warning-custom:hover {
+        background-color: #ffffff;
+        transform: translateY(-2px);
     }
 
     /* Responsif untuk mobile */

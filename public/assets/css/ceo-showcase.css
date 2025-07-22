@@ -1,0 +1,129 @@
+/* Style Kustom untuk CEO Showcase  */
+
+/* Wrapper utama dengan latar belakang dan posisi relatif */
+.ceo-showcase-card {
+    background: #0f3f2e;
+    /* Warna fallback jika gradien tidak didukung */
+    background: linear-gradient(90deg, #0f3f2e 0%, #0f3f2e 50%, #0f3f2e 100%);
+    color: #e3e3e3;
+    border-radius: 1rem;
+    padding: 3rem;
+    position: relative;
+    overflow: hidden;
+    /* Penting untuk menjaga bentuk pseudo-element */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Pseudo-element untuk membuat bentuk diagonal di sisi kanan */
+.ceo-showcase-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    /* Lebar area diagonal */
+    background: #e94560;
+    /* Warna highlight dari contoh gambar */
+    background: linear-gradient(135deg, #66d1a8 0%, #0f3f2e 100%);
+
+    /* Ini adalah bagian terpenting: membuat bentuk diagonal */
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+
+    z-index: 1;
+    /* Pastikan berada di bawah konten */
+}
+
+/* Pastikan semua konten berada di atas layer diagonal */
+.ceo-showcase-card .row {
+    position: relative;
+    z-index: 2;
+}
+
+.ceo-image-wrapper img {
+    max-width: 80%;
+    /* Sedikit lebih kecil agar pas */
+    height: auto;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+.ceo-content-wrapper h3 {
+    font-size: 2.5rem;
+    /* Ukuran nama lebih besar */
+    font-weight: 700;
+    color: #ffffff;
+    /* Warna putih agar menonjol */
+    margin-bottom: 0.25rem;
+}
+
+.ceo-content-wrapper .ceo-title {
+    font-size: 1.2rem;
+    color: #ffc107;
+    /* Menggunakan warna warning dari tombol Anda */
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.ceo-content-wrapper p {
+    color: #dcdcdc;
+    /* Warna abu-abu terang agar nyaman dibaca */
+    line-height: 1.7;
+}
+
+/* Styling untuk tombol agar lebih cocok dengan tema */
+.ceo-content-wrapper .btn {
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.ceo-content-wrapper .btn-contact-ceo {
+    background-color: #ffc107;
+    color: #1a1a2e;
+    border-color: #ffc107;
+}
+
+.ceo-content-wrapper .btn-contact-ceo:hover {
+    background-color: #ffffff;
+    color: #1a1a2e;
+    transform: translateY(-2px);
+}
+
+.ceo-content-wrapper .btn-consult {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.ceo-content-wrapper .btn-consult:hover {
+    background-color: #ffffff;
+    color: #1a1a2e;
+    transform: translateY(-2px);
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 991.98px) {
+    .ceo-showcase-card {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .ceo-showcase-card::after {
+        /* Ubah bentuk diagonal menjadi blok latar belakang di mobile */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        opacity: 0.8;
+    }
+
+    .ceo-image-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .ceo-image-wrapper img {
+        max-width: 50%;
+    }
+
+    .ceo-content-wrapper .cta-buttons {
+        justify-content: center;
+    }
+}

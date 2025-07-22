@@ -106,11 +106,6 @@
         @include('home.pages.portfolio')
     </section><!-- /Portfolio Section --> --}}
 
-    <!-- Team Section -->
-    <section id="ceo" class="team section light-background">
-        @include('home.pages.team')
-    </section><!-- /Team Section -->
-
     <!-- Pricing Section -->
     {{-- <section id="pricing" class="pricing section">
         @include('home.pages.pricing')

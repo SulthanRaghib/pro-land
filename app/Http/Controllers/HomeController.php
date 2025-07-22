@@ -248,4 +248,10 @@ class HomeController extends Controller
 
         return view('home.pages.portfolio', compact('title', 'allProjects'));
     }
+
+    public function tentangKami()
+    {
+        $title = 'Tentang Kami';
+        return view('home.pages.tentang_kami', compact('title'));
+    }
 }

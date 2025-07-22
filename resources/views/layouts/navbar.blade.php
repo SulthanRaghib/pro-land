@@ -14,7 +14,47 @@
     <nav id="navmenu" class="navmenu">
         <ul>
             <li><a href="{{ route('home') }}#beranda" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
-            <li><a href="{{ route('home') }}#tentang-kami">Tentang Kami</a></li>
+            <li class="dropdown mega-menu-dropdown {{ Request::is('tentang-kami*') ? 'active' : '' }}">
+                <a href="{{ route('home') }}#tentang-kami" class="{{ Request::is('tentang-kami*') ? 'active' : '' }}">
+                    <span>Tentang Kami</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i>
+                </a>
+                <ul class="mega-menu">
+                    <div class="row p-3">
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <a href="{{ route('tentang.profil') }}"
+                                class="py-3 px-0 {{ Route::is('tentang.profil') ? 'active-layanan' : '' }}">
+                                <div class="d-flex align-items-center position-relative z-1 gap-3">
+                                    <div>
+                                        <i class="bi bi-person-vcard" style="font-size: 30px;"></i>
+                                    </div>
+                                    <div style="white-space: normal;">
+                                        <h5>Profil <span>Kami</span></h5>
+                                        <p style="margin-bottom: 0px;">Kenali lebih dalam tentang visi, misi, dan
+                                            nilai-nilai yang kami anut dalam setiap proyek.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <a href="{{ route('tentang.faq') }}"
+                                class="py-3 px-0 {{ Route::is('tentang.faq') ? 'active-layanan' : '' }}">
+                                <div class="d-flex align-items-center position-relative z-1 gap-3">
+                                    <div>
+                                        <i class="bi bi-question-circle" style="font-size: 30px;"></i>
+                                    </div>
+                                    <div style="white-space: normal;">
+                                        <h5>FAQ <span>(Tanya Jawab)</span></h5>
+                                        <p style="margin-bottom: 0px;">Temukan jawaban atas pertanyaan yang sering
+                                            diajukan mengenai layanan dan proses kerja kami.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </ul>
+            </li>
             <li
                 class="dropdown mega-menu-dropdown {{ (Request::is('/') && request()->has('section') && request()->get('section') == 'layanan-kami') || Request::is('layanan*') ? 'active' : '' }}">
                 <a href="{{ route('home') }}#layanan-kami"
@@ -133,7 +173,8 @@
             <li><a href="{{ route('portfolio') }}" class="{{ Route::is('portfolio') ? 'active' : '' }}">Proyek</a>
             </li>
             <li><a href="{{ route('home') }}#ceo">CEO</a></li>
-            <li><a href="{{ route('hubungi.kami') }}" class="{{ Route::is('hubungi.kami') ? 'active' : '' }}">Hubungi
+            <li><a href="{{ route('hubungi.kami') }}"
+                    class="{{ Route::is('hubungi.kami') ? 'active' : '' }}">Hubungi
                     Kami</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

@@ -1,8 +1,12 @@
 <div>
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Tentang</h2>
-        <div><span>Pelajari Lebih Lanjut</span> <span class="description-title">Tentang Kami</span></div>
+    <div class="container" data-aos="fade-up">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-5">Kenali JAS PRO LAND & Development</h2>
+            <p class="text-center text-muted mb-5">
+                <span class="description-title">Tentang Kami</span>
+            </p>
+        </div>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -21,34 +25,35 @@
 
             <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-content">
-                    <h2>Bersama <span class="fw-bold" style="color: #e3a127">PT. JAS PRO LAND</span>, Setiap Proyek
+                    <h2>Bersama <span class="fw-bold text-warning">PT. JAS PRO LAND & Development</span>, Setiap Proyek
                         Lebih dari Sekadar Konstruksi</h2>
 
                     <p>
-                        Berdiri kokoh melalui Akta No. 88 tanggal 26 Februari 2025, <strong>PT. JAS PRO LAND</strong>
-                        hadir sebagai <strong>perusahaan konstruksi dan developer properti profesional di
-                            Indonesia</strong>. Sejak awal, kami berkomitmen mendukung pembangunan nasional, baik untuk
-                        proyek pemerintah maupun sektor swasta, dengan menjunjung tinggi <strong>nilai profesionalisme,
-                            integritas, dan kualitas hasil kerja</strong>.
+                        PT. JAS PRO LAND didirikan pada tanggal 26 Februari 2025, berdasarkan Akta No. 88, sebagai salah
+                        satu pengembang konstruksi terkemuka di Indonesia. Selaras dengan program pembangunan pemerintah
+                        dan swasta, kami bertekad untuk berperan aktif dalam memajukan suatu wilayah, dengan
+                        berlandaskan kepercayaan akan kemampuan profesionalisme dan tanggung jawab tinggi. Kami bergerak
+                        di berbagai bidang jasa konstruksi, meliputi pembangunan gedung, jalan raya, irigasi/saluran,
+                        dan rangka atap baja ringan.
                     </p>
-
                     <p>
-                        Kami menyediakan <strong>layanan jasa konstruksi terintegrasi</strong> mulai dari pembangunan
-                        gedung, infrastruktur jalan raya, sistem irigasi atau saluran air, hingga struktur atap baja
-                        ringan. Tak hanya itu, PT. JAS PRO LAND juga aktif sebagai <strong>developer properti</strong>
-                        dan turut berkontribusi dalam sektor pertambangan, memperluas dampak positif dalam pembangunan
-                        berkelanjutan.
+                        Selain itu, PT. JAS PRO LAND juga mencakup lingkup jasa pekerjaan sebagai developer dan di
+                        sektor pertambangan. Dengan pengalaman dan kualitas hasil yang telah teruji, nama JAS PRO LAND
+                        telah dipercaya oleh berbagai kalangan konsumen. Komitmen kami terhadap kepuasan pelanggan
+                        adalah prioritas utama, memastikan setiap proyek yang kami tangani memenuhi standar kualitas
+                        tertinggi.
                     </p>
-
                     <p>
-                        Dengan rekam jejak yang terpercaya dan pengalaman lintas proyek di berbagai wilayah Indonesia,
-                        kami telah menjadi <strong>mitra strategis</strong> bagi banyak institusi. Slogan kami,
-                        <em>"Properties That Understand Your Need"</em>, mencerminkan dedikasi kami dalam menciptakan
-                        hunian dan infrastruktur yang <strong>aman, fungsional, dan sesuai kebutuhan masyarakat
-                            modern</strong>.
+
+                        Sesuai dengan slogan kami, "Properties That Understand Your Needs", tujuan utama PT. JAS PRO
+                        LAND adalah untuk memberikan yang terbaik bagi siapapun yang ingin membangun atau memiliki
+                        hunian yang aman dan nyaman. Kami selalu berusaha untuk mewujudkan kawasan modern yang terencana
+                        dan berkelanjutan, serta mengembangkan area yang inklusif dan berorientasi pada masyarakat.
                     </p>
 
-                    <a href="{{ route('home') }}#services" class="btn btn-primary mt-4">Jelajahi Layanan Konstruksi</a>
+                    <a href="{{ route('home') }}#services" class="btn btn-lg btn-warning-custom mt-4 rounded-5">Lihat
+                        Layanan
+                        Konstruksi <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
