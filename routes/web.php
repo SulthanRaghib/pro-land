@@ -9,6 +9,7 @@ use Spatie\Sitemap\Tags\Url;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/kontak-kami', [HomeController::class, 'kontakKami'])->name('hubungi.kami');
 Route::post('/send-message-email', [HomeController::class, 'sendMessageEmail'])->name('send.message.email');
+Route::get('/layanan-kami', [HomeController::class, 'layananKami'])->name('layanan.kami');
 Route::get('/layanan-kami/proyek-pembangunan', [HomeController::class, 'proyekBangunan'])->name('layanan.proyek.bangunan');
 Route::get('/layanan-kami/proyek-baja-ringan', [HomeController::class, 'proyekBajaRingan'])->name('layanan.proyek.baja.ringan');
 Route::get('/layanan-kami/proyek-urugan', [HomeController::class, 'proyekUrugan'])->name('layanan.proyek.urugan');
@@ -16,8 +17,8 @@ Route::get('/layanan-kami/proyek-tambang', [HomeController::class, 'proyekTamban
 Route::get('/layanan-kami/konsultan-properti', [HomeController::class, 'konsultanProperti'])->name('layanan.konsultan.properti');
 Route::get('/layanan-kami/konsultan-pertambangan', [HomeController::class, 'konsultanPertambangan'])->name('layanan.konsultan.pertambangan');
 Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
-Route::get('/tentang-kami', [HomeController::class, 'tentangKami'])->name('tentang.profil');
-Route::get('/faq', [HomeController::class, 'tentangFaq'])->name('tentang.faq');
+Route::get('/tentang-kami/profil', [HomeController::class, 'tentangKami'])->name('tentang.profil');
+Route::get('/tentang-kami/faq', [HomeController::class, 'tentangFaq'])->name('tentang.faq');
 
 // Generate sitemap.xml
 Sitemap::create()

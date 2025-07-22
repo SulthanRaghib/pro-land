@@ -13,9 +13,11 @@
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href="{{ route('home') }}#beranda" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
-            <li class="dropdown mega-menu-dropdown {{ Request::is('tentang-kami*') ? 'active' : '' }}">
-                <a href="{{ route('home') }}#tentang-kami" class="{{ Request::is('tentang-kami*') ? 'active' : '' }}">
+            <li><a href="{{ route('home') }}" class="{{ Route::is('home') ? 'active' : '' }}">Beranda</a></li>
+            <li
+                class="dropdown mega-menu-dropdown {{ (Request::is('/') && request()->has('section') && request()->get('section') == 'tentang-kami') || Request::is('tentang*') ? 'active' : '' }}">
+                <a href="#"
+                    class="{{ (Request::is('/') && request()->has('section') && request()->get('section') == 'tentang-kami') || Request::is('tentang*') ? 'active' : '' }}">
                     <span>Tentang Kami</span>
                     <i class="bi bi-chevron-down toggle-dropdown"></i>
                 </a>
@@ -57,7 +59,7 @@
             </li>
             <li
                 class="dropdown mega-menu-dropdown {{ (Request::is('/') && request()->has('section') && request()->get('section') == 'layanan-kami') || Request::is('layanan*') ? 'active' : '' }}">
-                <a href="{{ route('home') }}#layanan-kami"
+                <a href="{{ route('layanan.kami') }}"
                     class="{{ (Request::is('/') && request()->has('section') && request()->get('section') == 'layanan-kami') || Request::is('layanan*') ? 'active' : '' }}">
                     <span>Layanan Kami</span>
                     <i class="bi bi-chevron-down toggle-dropdown"></i>

@@ -55,6 +55,12 @@ class HomeController extends Controller
     }
 
     // Layanan Kami ==============================================================================
+    public function layananKami()
+    {
+        $title = 'Layanan Kami';
+        return view('home.pages.layanan_kami', compact('title'));
+    }
+
     // Proyek Pembangunan
     public function proyekBangunan()
     {
