@@ -1,4 +1,10 @@
 @extends('homepage')
+@section('meta_description',
+    'Tentang Kami JAS PRO LAND - Kenali perusahaan konstruksi dan pengembangan properti kami,
+    layanan yang kami tawarkan, dan tim profesional di balik kesuksesan proyek kami.')
+@section('meta_keywords',
+    'JAS PRO LAND, perusahaan konstruksi, pengembangan properti, layanan konstruksi, baja ringan,
+    urugan tanah, tambang, konsultasi properti, konsultasi pertambangan')
 @section('content')
     <div>
         <!-- Section Title -->
