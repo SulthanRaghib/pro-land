@@ -1,6 +1,7 @@
 @extends('homepage')
 @section('meta_description', 'Layanan Proyek Baja Ringan - JAS PRO LAND')
-@section('meta_keywords', 'proyek baja ringan, konstruksi baja ringan, jasa konstruksi, rangka baja ringan, JAS PRO
+@section('meta_keywords',
+    'proyek baja ringan, konstruksi baja ringan, jasa konstruksi, rangka baja ringan, JAS PRO
     LAND')
 @section('content')
     @push('styles')
@@ -21,7 +22,7 @@
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
-                <h1>Detail Layanan Proyek Baja Ringan</h1>
+                <h1 class="text-white">Proyek Baja Ringan</h1>
                 <p>Solusi rangka baja ringan profesional untuk konstruksi lebih cepat, kuat, dan hemat biaya bersama JAS PRO
                     LAND.</p>
                 <nav class="breadcrumbs">

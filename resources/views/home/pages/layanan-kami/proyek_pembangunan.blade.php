@@ -23,7 +23,7 @@
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
-                <h1>Detail Layanan Proyek Pembangunan</h1>
+                <h1 class="text-white">Proyek Pembangunan</h1>
                 <p>Mewujudkan konstruksi berkualitas tinggi yang tepat waktu dan sesuai standar terbaik industri bersama JAS
                     PRO LAND.</p>
                 <nav class="breadcrumbs">

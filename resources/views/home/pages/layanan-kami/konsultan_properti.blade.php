@@ -1,6 +1,7 @@
 @extends('homepage')
 @section('meta_description', 'Layanan Konsultan Properti - JAS PRO LAND')
-@section('meta_keywords', 'konsultan properti, jasa properti, legalitas properti, pengembangan properti, pemasaran
+@section('meta_keywords',
+    'konsultan properti, jasa properti, legalitas properti, pengembangan properti, pemasaran
     properti, JAS PRO LAND')
 @section('content')
     @push('styles')
@@ -21,7 +22,7 @@
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
-                <h1>Detail Layanan Konsultan Properti</h1>
+                <h1 class="text-white">Konsultan Properti</h1>
                 <p>Jasa Konsultan Properti Terpercaya untuk Pengembangan, Legalitas, dan Pemasaran Properti Anda bersama JAS
                     PRO LAND.</p>
                 <nav class="breadcrumbs">

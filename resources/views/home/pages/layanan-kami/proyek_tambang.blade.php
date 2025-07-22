@@ -1,6 +1,7 @@
 @extends('homepage')
 @section('meta_description', 'Layanan Proyek Tambang - JAS PRO LAND')
-@section('meta_keywords', 'proyek tambang, jasa pertambangan, konstruksi tambang, perizinan tambang, K3 pertambangan,
+@section('meta_keywords',
+    'proyek tambang, jasa pertambangan, konstruksi tambang, perizinan tambang, K3 pertambangan,
     JAS PRO LAND')
 @section('content')
     @push('styles')
@@ -21,7 +22,7 @@
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
-                <h1>Detail Layanan Proyek Tambang</h1>
+                <h1 class="text-white">Proyek Tambang</h1>
                 <p>Layanan pertambangan terintegrasi dan konstruksi infrastruktur tambang terpercaya bersama JAS PRO LAND.
                 </p>
                 <nav class="breadcrumbs">
