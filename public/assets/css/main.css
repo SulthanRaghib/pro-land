@@ -1984,7 +1984,7 @@ section,
     font-weight: 500;
     padding: 12px 25px;
     cursor: pointer;
-    background: var(--accent-color);
+    background: var(--green-color);
     color: rgb(255, 255, 255);
     border-radius: 30px;
     display: flex;
@@ -1999,9 +1999,9 @@ section,
 }
 
 .portfolio .portfolio-filters li:hover {
-    color: var(--accent-color);
+    color: var(--green-color);
     transform: translateY(-2px);
-    background: color-mix(in srgb, var(--accent-color), transparent 92%);
+    background: color-mix(in srgb, var(--green-color), transparent 92%);
 }
 
 .portfolio .portfolio-filters li:hover i {

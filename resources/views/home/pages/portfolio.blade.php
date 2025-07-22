@@ -1,11 +1,13 @@
 @extends('homepage')
 @section('content')
     <div class="pt-5">
-        <section id="portfolio" class="portfolio section">
+        <section id="proyek" class="portfolio section" style="overflow: visible;">
             <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Portofolio Konstruksi & Development PT. JAS PRO LAND</h2>
-                <div><span>Telusuri</span> <span class="description-title">proyek konstruksi profesional.</span></div>
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center mb-0 mt-3">Proyek Konstruksi & Development PT. JAS PRO LAND</h2>
+                <div class="lead text-center text-muted mb-5">
+                    <span>Lihat</span> <span class="description-title">Portofolio Proyek Kami</span>
+                </div>
             </div><!-- End Section Title -->
 
             <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -34,43 +36,144 @@
                         </li>
                     </ul>
 
-                    <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-                        @forelse ($allProjects as $project)
-                            <div
-                                class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ $project['filter'] }}">
-                                <article class="portfolio-entry">
-                                    <figure class="entry-image">
-                                        <img src="{{ $project['image'] }}" class="img-fluid" alt="{{ $project['alt'] }}"
-                                            loading="lazy">
-                                        <div class="entry-overlay">
-                                            <div class="overlay-content">
-                                                <div class="entry-meta text-capitalize">
-                                                    {{ $project['category'] }}
-                                                </div>
-                                                <h2 class="entry-title">{{ $project['alt'] }}</h2>
-                                                <div class="entry-links">
-                                                    <a href="{{ $project['image'] }}" class="glightbox"
-                                                        data-gallery="portfolio-gallery"
-                                                        data-glightbox="title: {{ $project['alt'] }}; description: Proyek konstruksi berkualitas bersama PT. JAS PRO LAND.">
-                                                        <i class="bi bi-arrows-angle-expand"></i>
-                                                    </a>
+                    <div class="container">
+                        <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                            @foreach ($allProjects as $project)
+                                <div
+                                    class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-{{ $project['filter'] }}">
+                                    <article class="portfolio-entry">
+                                        <figure class="entry-image">
+                                            <img src="{{ $project['image'] }}" class="img-fluid" alt="{{ $project['alt'] }}"
+                                                loading="lazy">
+                                            <div class="entry-overlay">
+                                                <div class="overlay-content">
+                                                    <div class="entry-meta text-capitalize">
+                                                        {{ $project['category'] }}
+                                                    </div>
+                                                    <h2 class="entry-title">{{ $project['alt'] }}</h2>
+                                                    <div class="entry-links">
+                                                        <a href="{{ $project['image'] }}" class="glightbox"
+                                                            data-gallery="portfolio-gallery"
+                                                            data-glightbox="title: {{ $project['alt'] }}; description: Proyek konstruksi berkualitas bersama PT. JAS PRO LAND.">
+                                                            <i class="bi bi-arrows-angle-expand"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </figure>
-                                </article>
-                            </div>
-                        @empty
-                            <div class="col-12 text-center">
-                                <p class="text-muted">Belum ada portofolio proyek yang ditampilkan saat ini.</p>
-                                <a href="{{ route('hubungi.kami') }}" class="btn btn-primary mt-3">Hubungi Kami untuk
-                                    Konsultasi
-                                    Proyek</a>
-                            </div>
-                        @endforelse
+                                        </figure>
+                                    </article>
+                                </div>
+                            @endforeach
+                        </div>
                     </div>
                 </div>
             </div>
         </section><!-- End Portfolio Section -->
+
+
+        <section id="contact" class="contact section" style="overflow: visible;">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- Contact Info Boxes -->
+                <div class="row gy-4 mb-5">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-info-box">
+                            <div class="icon-box">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Alamat Kami</h4>
+                                <p>House Office Jeruk Tipis, Luwung Semut 003/001 Kragilan, Kabupaten Serang, Banten</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-info-box">
+                            <div class="icon-box">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Alamat Email</h4>
+                                <a href="mailto:prolandjas@gmail.com">prolandjas@gmail.com</a>
+                                <a href="mailto:ahmadsadelircm@gmail.com">ahmadsadelircm@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="contact-info-box">
+                            <div class="icon-box">
+                                <i class="bi bi-headset"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Jam Operasional</h4>
+                                <p>Senin–Jumat: 08.00 – 16.00</p>
+                                <p>Sabtu: 08.00 – 12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
+
+    @push('scripts')
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let portfolioContainer = document.querySelector('.isotope-container');
+                let portfolioIsotope;
+
+                if (portfolioContainer) {
+                    portfolioIsotope = new Isotope(portfolioContainer, {
+                        itemSelector: '.isotope-item',
+                        layoutMode: 'masonry'
+                    });
+
+                    let portfolioFilters = document.querySelectorAll('.portfolio-filters li');
+
+                    portfolioFilters.forEach(function(filter) {
+                        filter.addEventListener('click', function() {
+                            // Remove active class from all filters
+                            portfolioFilters.forEach(li => li.classList.remove('filter-active'));
+                            // Add active class to the clicked filter
+                            this.classList.add('filter-active');
+
+                            let filterValue = this.getAttribute('data-filter');
+                            portfolioIsotope.arrange({
+                                filter: filterValue
+                            });
+
+                            // --- START New Logic for No Data ---
+                            let visibleItems = portfolioIsotope.getFilteredItemElements();
+                            let noProjectsMessage = document.getElementById('no-projects-message');
+
+                            if (visibleItems.length === 0) {
+                                if (!noProjectsMessage) {
+                                    // Create the message and CTA if it doesn't exist
+                                    noProjectsMessage = document.createElement('div');
+                                    noProjectsMessage.id = 'no-projects-message';
+                                    noProjectsMessage.className =
+                                        'col-12 text-center mb-5'; // Add some margin for better appearance
+                                    noProjectsMessage.innerHTML = `
+                            <p class="text-muted mb-0">Belum ada portofolio proyek yang ditampilkan saat ini.</p>
+                            <a href="{{ route('hubungi.kami') }}" class="btn btn-outline-primary mt-2 rounded-5">Mari Mulai Proyek Anda <i class="bi bi-arrow-right"></i></a>
+                        `;
+                                    portfolioContainer.appendChild(noProjectsMessage);
+                                }
+                                noProjectsMessage.style.display = 'block'; // Show the message
+                            } else {
+                                if (noProjectsMessage) {
+                                    noProjectsMessage.style.display =
+                                        'none'; // Hide the message if items are visible
+                                }
+                            }
+                            // --- END New Logic for No Data ---
+                        });
+                    });
+                }
+            });
+        </script>
+    @endpush
 @endsection
