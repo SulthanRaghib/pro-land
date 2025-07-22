@@ -1,14 +1,18 @@
 @extends('homepage')
 @section('content')
-    <div class="pt-5">
-        <section id="proyek" class="portfolio section" style="overflow: visible;">
-            <!-- Section Title -->
-            <div class="container" data-aos="fade-up">
-                <h2 class="text-center mb-0 mt-3">Proyek Konstruksi & Development PT. JAS PRO LAND</h2>
-                <div class="lead text-center text-muted mb-5">
+    <div> <!-- Page Title -->
+        <div class="page-title position-relative overflow-hidden pb-0" data-aos="fade">
+            <img src="{{ asset('assets/img/jas_pro_land/portofolio_proyek.jpg') }}" alt="Konsultan Pertambangan"
+                class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
+            <div class="container position-relative text-white pb-5">
+                <h1 class="text-white">Proyek Konstruksi & Development PT. JAS PRO LAND</h1>
+                <div class="lead text-center text-white mb-5">
                     <span>Lihat</span> <span class="description-title">Portofolio Proyek Kami</span>
                 </div>
-            </div><!-- End Section Title -->
+            </div>
+        </div>
+        <section id="proyek" class="portfolio section" style="overflow: visible;">
 
             <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
