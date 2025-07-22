@@ -1,12 +1,20 @@
 @extends('homepage')
 @section('content')
-    <div class="pt-5">
+    <div>
+        <!-- Section Title -->
+        <div class="page-title position-relative overflow-hidden pb-0" data-aos="fade">
+            <img src="{{ asset('assets/img/jas_pro_land/hubungi_kami.jpg') }}" alt="Kontak Kami"
+                class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
+            <div class="container position-relative text-white pb-5">
+                <h1 class="text-white">Kontak Kami</h1>
+                <p class="lead text-center text-white mb-5">
+                    <span>Segera</span> <span class="description-title">Hubungi</span>
+                </p>
+            </div>
+        </div><!-- End Section Title -->
+
         <section id="contact" class="contact section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Kontak</h2>
-                <div><span>Segera</span> <span class="description-title">Hubungi</span></div>
-            </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
