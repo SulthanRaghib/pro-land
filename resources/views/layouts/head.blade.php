@@ -111,8 +111,9 @@
 <!-- Animate.css for animation -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-{{-- Custom CEO SHOWCASE --}}
+{{-- Custom Style --}}
 <link rel="stylesheet" href="{{ url('assets/css/ceo-showcase.css') }}">
+<link rel="stylesheet" href="{{ url('assets/css/mengapa-milih-kami.css') }}">
 
 <style>
     .bg-gradient-green {

@@ -1,0 +1,38 @@
+/* Card hover effect */
+#why-us .card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transform-origin: left;
+}
+
+#why-us .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Garis bawah animasi */
+#why-us .card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: var(--accent-color);
+    transition: width 0.4s ease;
+}
+
+#why-us .card:hover::after {
+    width: 100%;
+}
+
+/* Flip ikon saja */
+#why-us .card .bi {
+    display: inline-block;
+    transition: transform 0.6s ease;
+}
+
+#why-us .card:hover .bi {
+    transform: scaleX(-1); /* Flip kanan */
+}
