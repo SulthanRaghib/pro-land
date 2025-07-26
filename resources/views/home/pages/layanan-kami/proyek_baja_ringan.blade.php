@@ -18,7 +18,7 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan.png') }}" alt="Proyek Baja Ringan"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan.webp') }}" alt="Proyek Baja Ringan"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
@@ -96,7 +96,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_img.webp') }}"
                                                     alt="Konstruksi Baja Ringan JAS PRO LAND" class="img-fluid rounded">
                                             </div>
                                         </div>
@@ -201,7 +201,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_1.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_1.webp') }}"
                                                     alt="Proyek Rangka Baja Ringan Rajeg Ciry Mansion" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -211,7 +211,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_2.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_2.webp') }}"
                                                     alt="Proyek Rangka Baja Ringan Garden City Balaraja" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -221,7 +221,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_3.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_3.webp') }}"
                                                     alt="Proyek Rangka Baja Ringan Granada Rajeg City" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -231,7 +231,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_4.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_4.webp') }}"
                                                     alt="Proyek Rangka Baja Ringan Puri Sepatan" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -241,7 +241,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_5.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_5.webp') }}"
                                                     alt="Proyek Rangka Baja Garden City Solear" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -251,7 +251,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_baja_ringan_6.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_baja_ringan_6.webp') }}"
                                                     alt="Proyek Rangka Baja Sukamahan Asri" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">

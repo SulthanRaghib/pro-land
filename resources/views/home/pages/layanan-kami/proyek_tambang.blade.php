@@ -18,7 +18,7 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang.png') }}" alt="Proyek Tambang Profesional"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang.webp') }}" alt="Proyek Tambang Profesional"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
@@ -97,7 +97,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_img.webp') }}"
                                                     alt="Konstruksi Tambang JAS PRO LAND" class="img-fluid rounded">
                                             </div>
                                         </div>
@@ -202,7 +202,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_pasir_1.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_pasir_1.webp') }}"
                                                     alt="Proyek Tambang Pasir Serang" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Tambang Pasir Serang</h5>
@@ -211,7 +211,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_pasir_2.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_pasir_2.webp') }}"
                                                     alt="Proyek Tambang Pasir Serang" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Tambang Pasir Serang</h5>
@@ -220,7 +220,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_pasir_3.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_pasir_3.webp') }}"
                                                     alt="Proyek Tambang Pasir Serang" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Tambang Pasir Serang</h5>
@@ -229,7 +229,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_pasir_4.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_pasir_4.webp') }}"
                                                     alt="Proyek Tambang Pasir Serang" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Tambang Pasir Serang</h5>
@@ -238,7 +238,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_tambang_pasir_5.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_tambang_pasir_5.webp') }}"
                                                     alt="Proyek Tambang Pasir Serang" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Tambang Pasir Serang</h5>

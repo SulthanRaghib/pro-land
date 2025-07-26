@@ -74,13 +74,13 @@
 </script>
 
 <!-- Favicon for all devices -->
-<link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon-32x32.webp') }}">
 <link rel="shortcut icon" href="{{ url('favicon.ico') }}" type="image/x-icon">
 <link rel="icon" type="image/svg+xml" href="{{ url('favicon.svg') }}">
 <!-- Apple Touch Icon -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ url('apple-touch-icon.png') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ url('apple-touch-icon.webp') }}">
 <!-- Android Chrome Icon -->
-<link rel="icon" type="image/png" sizes="192x192" href="{{ url('android-chrome-192x192.png') }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ url('android-chrome-192x192.webp') }}">
 <!-- Web App Manifest -->
 <link rel="manifest" href="{{ url('site.webmanifest') }}">
 

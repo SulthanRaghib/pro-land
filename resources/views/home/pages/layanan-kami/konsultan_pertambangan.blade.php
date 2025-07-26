@@ -18,7 +18,7 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/konsultan_tambang.png') }}" alt="Konsultan Pertambangan"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_tambang.webp') }}" alt="Konsultan Pertambangan"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
@@ -99,7 +99,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/konsultan_tambang_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_tambang_img.webp') }}"
                                                     alt="Jasa Konsultan Pertambangan Profesional JAS PRO LAND"
                                                     class="img-fluid rounded">
                                             </div>
@@ -205,7 +205,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pertambangan_1.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pertambangan_1.webp') }}"
                                                     alt="Survey Cadangan Mineral Sumatera" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -215,7 +215,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pertambangan_2.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pertambangan_2.webp') }}"
                                                     alt="Penyusunan Feasibility Study Kalimantan" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -225,7 +225,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pertambangan_3.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pertambangan_3.webp') }}"
                                                     alt="Pengawasan Produksi Batu Bara" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Pengawasan Produksi Batu Bara</h5>

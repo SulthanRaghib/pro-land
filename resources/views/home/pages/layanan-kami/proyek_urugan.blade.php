@@ -16,7 +16,7 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan.png') }}" alt="Proyek Urugan"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan.webp') }}" alt="Proyek Urugan"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
@@ -96,7 +96,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan_img.webp') }}"
                                                     alt="Proyek Urugan Tanah" class="img-fluid rounded">
                                             </div>
                                         </div>
@@ -195,7 +195,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_1.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan_1.webp') }}"
                                                     alt="Proyek Urugan Tanah Grand Harmony Balaraja" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -205,7 +205,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_2.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan_2.webp') }}"
                                                     alt="Proyek Urugan Tanah Grand Harmony Balaraja" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -215,7 +215,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_3.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan_3.webp') }}"
                                                     alt="Proyek Urugan Tanah Grand City The Extention" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -225,7 +225,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_urugan_4.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_urugan_4.webp') }}"
                                                     alt="Proyek Urugan Tanah Grand City The Extention" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">

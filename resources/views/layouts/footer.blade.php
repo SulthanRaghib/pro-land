@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-12 footer-about">
                 <a href="{{ route('home') }}" class="logo d-flex align-items-center mb-3">
                     <span class="sitename fw-bold text-warning">
-                        <img src="{{ url('assets/img/jas_pro_land/logo-jas.png') }}" alt="Logo JAS PRO LAND"
+                        <img src="{{ url('assets/img/jas_pro_land/webp/logo-jas.webp') }}" alt="Logo JAS PRO LAND"
                             class="img-fluid" style="max-width: 50px; height: auto; margin-right: 10px;">
                         JAS PRO LAND</span>
                 </a>

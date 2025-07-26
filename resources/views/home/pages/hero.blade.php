@@ -5,7 +5,7 @@
          @php
              $slides = [
                  [
-                     'image' => 'gedung.png',
+                     'image' => 'gedung.webp',
                      'title' => 'JAS PRO LAND',
                      'subtitle' => 'DEVELOPMENT',
                      'desc' => 'Properties That Understand Your Needs',
@@ -18,7 +18,7 @@
                      ],
                  ],
                  [
-                     'image' => 'pembangunan_img.jpg',
+                     'image' => 'pembangunan_img.webp',
                      'title' => 'Bangun Masa Depan',
                      'subtitle' => 'Dengan JAS PRO LAND',
                      'desc' => 'Infrastruktur yang dibangun dengan visi jangka panjang.',
@@ -30,7 +30,7 @@
                      ],
                  ],
                  [
-                     'image' => 'konsultan_tambang.png',
+                     'image' => 'konsultan_tambang.webp',
                      'title' => 'Solusi Konstruksi',
                      'subtitle' => 'Bersama Profesional Terpercaya',
                      'desc' => 'Keamanan, kenyamanan, dan nilai investasi properti Anda.',
@@ -48,7 +48,7 @@
              <div class="carousel-item h-100 {{ $i == 0 ? 'active' : '' }}">
                  <div class="position-absolute w-100 h-100 bg-dark opacity-75 z-1"></div>
                  <div class="position-absolute w-100 h-100 bg-image z-0"
-                     style="background-image: url('{{ asset('assets/img/jas_pro_land/' . $s['image']) }}'); background-size: cover; background-position: center; background-attachment: fixed;">
+                     style="background-image: url('{{ asset('assets/img/jas_pro_land/webp/' . $s['image']) }}'); background-size: cover; background-position: center; background-attachment: fixed;">
                  </div>
                  <div
                      class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100 text-white z-2">

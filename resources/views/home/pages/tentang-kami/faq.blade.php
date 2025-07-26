@@ -10,7 +10,7 @@
     <div>
         <!-- Section Title -->
         <div class="page-title position-relative overflow-hidden pb-0" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/faq.jpg') }}" alt="FAQ JAS PRO LAND"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/faq.webp') }}" alt="FAQ JAS PRO LAND"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white pb-5">

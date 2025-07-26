@@ -18,8 +18,8 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/konsultan_properti.png') }}" alt="Konsultan Properti Profesional"
-                class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_properti.webp') }}"
+                alt="Konsultan Properti Profesional" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
                 <h1 class="text-white">Konsultan Properti</h1>
@@ -97,7 +97,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/konsultan_properti_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_properti_img.webp') }}"
                                                     alt="Konsultan Properti JAS PRO LAND" class="img-fluid rounded">
                                             </div>
                                         </div>
@@ -202,7 +202,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/konsultan_1.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_1.webp') }}"
                                                     alt="Pendampingan Legalitas Properti" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -212,7 +212,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/konsultan_2.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_2.webp') }}"
                                                     alt="Pengembangan Proyek Perumahan" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Pengembangan Proyek Perumahan</h5>
@@ -221,7 +221,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/konsultan_3.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/konsultan_3.webp') }}"
                                                     alt="Pemasaran Properti Digital" class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
                                                     <h5>Pemasaran Properti Digital</h5>

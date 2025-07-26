@@ -14,7 +14,7 @@
 
                 <!-- Kolom Gambar -->
                 <div class="col-lg-5 text-center ceo-image-wrapper">
-                    <img src="{{ url('assets/img/jas_pro_land/ceo-right.png') }}"
+                    <img src="{{ url('assets/img/jas_pro_land/webp/ceo-right.webp') }}"
                         alt="H. Ahmad Sadeli CEO JAS PRO LAND Konstruksi & Development"
                         class="img-fluid rounded-circle shadow-lg">
                 </div>

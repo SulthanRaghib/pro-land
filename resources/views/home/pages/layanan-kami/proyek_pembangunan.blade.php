@@ -19,7 +19,7 @@
     <main class="main">
         <!-- Page Title -->
         <div class="page-title position-relative overflow-hidden" data-aos="fade">
-            <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan.png') }}" alt="Proyek Pembangunan"
+            <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan.webp') }}" alt="Proyek Pembangunan"
                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
                 style="z-index:0; filter: blur(8px) brightness(0.7); pointer-events:none;">
             <div class="container position-relative text-white py-5">
@@ -100,7 +100,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img src="{{ asset('assets/img/jas_pro_land/pembangunan_img.jpg') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/pembangunan_img.webp') }}"
                                                     alt="Proyek Pembangunan Gedung" class="img-fluid rounded">
                                             </div>
                                         </div>
@@ -206,7 +206,7 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_rumah_klasik_modern_serang.webp') }}"
                                                     alt="Proyek Pembangunan Rumah Klasik Modern Serang" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -217,7 +217,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_rumah_klasik_modern_serangg.webp') }}"
                                                     alt="Proyek Pembangunan Rumah Klasik Modern Serang" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -228,7 +228,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serang_2.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_rumah_klasik_modern_serang_2.webp') }}"
                                                     alt="Proyek Pembangunan Rumah Klasik Modern Serang 2"
                                                     class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
@@ -239,7 +239,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_rumah_klasik_modern_serangg_2.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_rumah_klasik_modern_serangg_2.webp') }}"
                                                     alt="Proyek Pembangunan Rumah Klasik Modern Serang" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -250,7 +250,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_cafe_saung_serang.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_cafe_saung_serang.webp') }}"
                                                     alt="Proyek Pembangunan Cafe Saung Serang" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -261,7 +261,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_cafe_saung_serangg.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_cafe_saung_serangg.webp') }}"
                                                     alt="Proyek Pembangunan Cafe Saung Serang" class="img-fluid"
                                                     loading="lazy">
                                                 <div class="portfolio-info">
@@ -272,7 +272,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="portfolio-item">
-                                                <img src="{{ asset('assets/img/jas_pro_land/proyek_pembangunan_ruko_dan_rumah_subsidi_mitra_garden_serang.png') }}"
+                                                <img src="{{ asset('assets/img/jas_pro_land/webp/proyek_pembangunan_ruko_dan_rumah_subsidi_mitra_garden_serang.webp') }}"
                                                     alt="Proyek Pembangunan Ruko dan Rumah Subsidi Mitra Garden Serang"
                                                     class="img-fluid" loading="lazy">
                                                 <div class="portfolio-info">
