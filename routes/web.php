@@ -6,7 +6,11 @@ use Illuminate\Support\Facades\Route;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+// Route::get('/', [HomeController::class, 'index'])->name('home');
+// arahin ke view langsung tanpa controller [views/errors/site_unreachable.blade.php]
+Route::get('/', function () {
+    return view('errors.site_unreachable');
+})->name('home');
 Route::get('/kontak-kami', [HomeController::class, 'kontakKami'])->name('hubungi.kami');
 Route::post('/send-message-email', [HomeController::class, 'sendMessageEmail'])->name('send.message.email');
 Route::get('/layanan-kami', [HomeController::class, 'layananKami'])->name('layanan.kami');
