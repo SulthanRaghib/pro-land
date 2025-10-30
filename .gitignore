@@ -21,3 +21,10 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Deployment files
+deploy.php
+deploy.sh
+webhook.log
+deployment.log
+*.log
