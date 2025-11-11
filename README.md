@@ -138,5 +138,3 @@ Proyek ini dikembangkan sebagai bagian dari portofolio profesional untuk PT. JAS
 Untuk kerja sama atau pertanyaan: **sulthan.raghib09@gmail.com**
 
 ---
-
-tes cicd
