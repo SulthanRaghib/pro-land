@@ -219,7 +219,7 @@
     @media (max-width: 768px) {
         .mega-menu h5 {
             font-size: 14px;
-            color: var(--contrast-color);
+            color: var(--green-color);
         }
 
         .mega-menu p {

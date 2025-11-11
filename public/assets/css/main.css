@@ -435,7 +435,6 @@ h6 {
 
     .navmenu .active i,
     .navmenu .active:focus i {
-        background-color: var(--default-color);
         color: var(--green-color);
     }
 
